@@ -1,10 +1,21 @@
 ! Police TTF
 URxvt*font: xft:Bitstream Vera Sans Mono:style=Regular:pixelsize=13:antialias=true
+URxvt*borderLess:  false
 
 ! Taille du buffer et barre de défilement
 URxvt*saveLines: 10000
-Rxvt*scrollBar_right: true
+URxvt*scrollBar_right: true
 URxvt*scrollColor: #c2dd5a
 
 ! Onglets
 URxvt.perl-ext-common: default,tabbed
+URxvt.tabbed.tabbar-fg: 0
+URxvt.tabbed.tabbar-bg: 3
+URxvt.tabbed.tab-fg:    3
+URxvt.tabbed.tab-bg:    0
+
+! Bell
+URxvt.visualBell: true
+
+!Cursor
+URxvt*cursorBlink: on

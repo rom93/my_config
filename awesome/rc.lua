@@ -161,22 +161,17 @@ meminfo_timer:start()
 -- }}}
 
 -- {{{ Menu
-logout = {
-   { "Reboot", 'sudo shutdown -r now'},
-   { "Shutdown", 'sudo shutdown -h now'},
-}
 
 -- Create a laucher widget and a main menu
 myawesomemenu = {
-   { "restart", awesome.restart },
-   { "quit", awesome.quit },
-   { "manual", terminal .. " -e man awesome" },
-   { "edit config", editor_cmd .. " " .. awful.util.getdir("config") .. "/rc.lua" },
+   { "Shutdown", 'sudo shutdown -h now'},
+   { "Reboot", 'sudo shutdown -r now'},
+   { "Quit session", awesome.quit },
 }
 
-mymainmenu = awful.menu({ items = { { "Awesome", myawesomemenu, beautiful.awesome_icon },
+mymainmenu = awful.menu({ items = {
                                     { "Debian", debian.menu.Debian_menu.Debian },
-                                    { "Logout", logout },
+                                    { "Logout", myawesomemenu },
                                   }
                         })
 
@@ -350,7 +345,8 @@ clientkeys = awful.util.table.join(
         function (c)
             c.maximized_horizontal = not c.maximized_horizontal
             c.maximized_vertical   = not c.maximized_vertical
-        end)
+        end),
+    awful.key({ modkey,"Mod1"}, "f", function () awful.util.spawn("firefox") end)
 )
 
 -- Compute the maximum number of digit we need, limited to 9
@@ -451,3 +447,5 @@ end)
 
 -- Config perso
 os.execute("wicd-client &")
+os.execute("/home/rcr/.conky/.conkyboot.sh &")
+os.execute("volti &")
