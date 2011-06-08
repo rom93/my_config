@@ -151,8 +151,8 @@ meminfo_timer:start()
 --     tags[s] = awful.tag({ 1, 2, 3, 4, 5, 6, 7, 8, 9 }, s, layouts[1])
 -- end
    tags = {
-         names = { " Web ", " Dev ", " Mail ", " Log " },
-         layout = { layouts[1], layouts[2], layouts[4], layouts[2] }
+         names = { " Web ", " Dev ", " Sql ", " Other ", " Mail" },
+         layout = { layouts[1], layouts[2], layouts[2], layouts[2] }
          }
    for s = 1, screen.count() do
      -- Each screen has its own tag table.
