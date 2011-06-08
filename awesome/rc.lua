@@ -60,12 +60,8 @@ function activeram()
 
 	ramusg = (active/memtot)*100
 
-	if ramusg < 51 then
-		res = '<span color="#4C1B1B">' .. string.format("%.2f",ramusg) .. '</span>%'
-	elseif	ramusg < 71 then
-		res = '<span color="#4C1B1B">' .. string.format("%.2f",ramusg) .. '</span>%'
-	elseif  ramusg < 86 then
-		res = '<span color="#4C1B1B">' .. string.format("%.2f",ramusg) .. '</span>%'
+	if ramusg < 80 then
+		res = '<span color="#FDF6CC">' .. string.format("%.2f",ramusg) .. '</span>%'
 	else
 		res = '<span color="red">' .. string.format("%.2f",ramusg) .. '</span>%)'
 	end
@@ -90,12 +86,8 @@ function activecpu()
 			-- When CPU usage goes above/below 10%
 			str = string.format("%02d", newjiffies-jiffies[cpu])
 
-			if str < "31" then
-				str = '<span color="#4C1B1B">' .. str .. '</span>'
-			elseif str < "51" then
-				str = '<span color="yellow">' .. str .. '</span>'
-			elseif str < "70" then
-				str = '<span color="orange">' .. str .. '</span>'
+			if str < "80" then
+				str = '<span color="#FDF6CC">' .. str .. '</span>'
 			else
 				str = '<span color="red">' .. str .. '</span>'
 			end
@@ -116,7 +108,7 @@ cpuinfo_timer:start()
 
 -- GMail Widget
 mymail = widget({ type = "textbox", align = "right" })
-mymail.text = 'Mail: <span color="#4C1B1B"> ? </span> | '
+mymail.text = 'Mail: <span color="#FDF6CC"> ? </span> | '
 
 awful.hooks.timer.register(30, function ()
     os.execute("/home/rcr/my_config/scripts/unread.py &")
@@ -132,7 +124,7 @@ awful.hooks.timer.register(30, function ()
     if l ~= "0" then
 	    l = '<span color="red">' .. l .. '</span>'
     else
-	    l = '<span color="#4C1B1B">0</span>'
+	    l = '<span color="#FDF6CC">0</span>'
     end
 
     mymail.text = 'Mail: ' .. l .. ' | '
