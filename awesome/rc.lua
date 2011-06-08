@@ -12,7 +12,7 @@ require("debian.menu")
 
 -- {{{ Variable definitions
 -- Themes define colours, icons, and wallpapers
-beautiful.init("/usr/share/awesome/themes/zenburn/theme.lua")
+beautiful.init("/home/rcr/my_config/awesome/themes/my_theme/theme.lua")
 
 -- This is used later as the default terminal and editor to run.
 terminal = "x-terminal-emulator"
@@ -61,11 +61,11 @@ function activeram()
 	ramusg = (active/memtot)*100
 
 	if ramusg < 51 then
-		res = '<span color="green">' .. string.format("%.2f",ramusg) .. '</span>%'
+		res = '<span color="#4C1B1B">' .. string.format("%.2f",ramusg) .. '</span>%'
 	elseif	ramusg < 71 then
-		res = '<span color="green">' .. string.format("%.2f",ramusg) .. '</span>%'
+		res = '<span color="#4C1B1B">' .. string.format("%.2f",ramusg) .. '</span>%'
 	elseif  ramusg < 86 then
-		res = '<span color="green">' .. string.format("%.2f",ramusg) .. '</span>%'
+		res = '<span color="#4C1B1B">' .. string.format("%.2f",ramusg) .. '</span>%'
 	else
 		res = '<span color="red">' .. string.format("%.2f",ramusg) .. '</span>%)'
 	end
@@ -91,7 +91,7 @@ function activecpu()
 			str = string.format("%02d", newjiffies-jiffies[cpu])
 
 			if str < "31" then
-				str = '<span color="green">' .. str .. '</span>'
+				str = '<span color="#4C1B1B">' .. str .. '</span>'
 			elseif str < "51" then
 				str = '<span color="yellow">' .. str .. '</span>'
 			elseif str < "70" then
@@ -116,7 +116,7 @@ cpuinfo_timer:start()
 
 -- GMail Widget
 mymail = widget({ type = "textbox", align = "right" })
-mymail.text = 'Mail: <span color="green"> ? </span> | '
+mymail.text = 'Mail: <span color="#4C1B1B"> ? </span> | '
 
 awful.hooks.timer.register(30, function ()
     os.execute("/home/rcr/my_config/scripts/unread.py &")
@@ -132,7 +132,7 @@ awful.hooks.timer.register(30, function ()
     if l ~= "0" then
 	    l = '<span color="red">' .. l .. '</span>'
     else
-	    l = '<span color="green">0</span>'
+	    l = '<span color="#4C1B1B">0</span>'
     end
 
     mymail.text = 'Mail: ' .. l .. ' | '
@@ -166,7 +166,8 @@ meminfo_timer:start()
 myawesomemenu = {
    { "Shutdown", 'sudo shutdown -h now'},
    { "Reboot", 'sudo shutdown -r now'},
-   { "Quit session", awesome.quit },
+   { "Restart awesome", awesome.restart },
+   { "Quit awesome", awesome.quit },
 }
 
 mymainmenu = awful.menu({ items = {
