@@ -61,7 +61,7 @@ function activeram()
 	ramusg = (active/memtot)*100
 
 	if ramusg < 80 then
-		res = '<span color="#FDF6CC">' .. string.format("%.2f",ramusg) .. '</span>%'
+		res = '<span color="#FFFFCC">' .. string.format("%.2f",ramusg) .. '</span>%'
 	else
 		res = '<span color="red">' .. string.format("%.2f",ramusg) .. '</span>%)'
 	end
@@ -87,7 +87,7 @@ function activecpu()
 			str = string.format("%02d", newjiffies-jiffies[cpu])
 
 			if str < "80" then
-				str = '<span color="#FDF6CC">' .. str .. '</span>'
+				str = '<span color="#FFFFCC">' .. str .. '</span>'
 			else
 				str = '<span color="red">' .. str .. '</span>'
 			end
@@ -108,7 +108,7 @@ cpuinfo_timer:start()
 
 -- GMail Widget
 mymail = widget({ type = "textbox", align = "right" })
-mymail.text = 'Mail: <span color="#FDF6CC"> ? </span> | '
+mymail.text = 'Mail: <span color="#FFFFCC"> ? </span> | '
 
 awful.hooks.timer.register(30, function ()
     os.execute("/home/rcr/my_config/scripts/unread.py &")
@@ -124,7 +124,7 @@ awful.hooks.timer.register(30, function ()
     if l ~= "0" then
 	    l = '<span color="red">' .. l .. '</span>'
     else
-	    l = '<span color="#FDF6CC">0</span>'
+	    l = '<span color="#FFFFCC">0</span>'
     end
 
     mymail.text = 'Mail: ' .. l .. ' | '

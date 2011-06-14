@@ -9,7 +9,7 @@ theme.font          = "sans 8"
 --theme.bg_normal     = "#222222"
 theme.bg_normal     = "#BFC289"
 --theme.bg_focus      = "#535d6c"
-theme.bg_focus      = "#FDF6CC"
+theme.bg_focus      = "#FFFFCC"
 theme.bg_urgent     = "#ff0000"
 --theme.bg_minimize   = "#444444"
 theme.bg_minimize     = "#BFC289"
@@ -34,7 +34,7 @@ theme.border_marked = "#91231c"
 -- tooltip_[font|opacity|fg_color|bg_color|border_width|border_color]
 -- mouse_finder_[color|timeout|animate_timeout|radius|factor]
 -- Example:
-theme.taglist_bg_focus = "#FDF6CC"
+theme.taglist_bg_focus = "#FFFFCC"
 
 -- Display the taglist squares
 theme.taglist_squares_sel   = "/usr/share/awesome/themes/default/taglist/squarefw.png"
