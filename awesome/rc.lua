@@ -398,6 +398,8 @@ awful.rules.rules = {
                      border_color = beautiful.border_normal,
                      focus = true,
                      keys = clientkeys,
+                     maximized_vertical   = false,
+                     maximized_horizontal = false,
                      buttons = clientbuttons } },
     { rule = { class = "MPlayer" },
       properties = { floating = true } },
@@ -442,3 +444,4 @@ end)
 os.execute("wicd-client &")
 os.execute("/home/rcr/.conky/.conkyboot.sh &")
 os.execute("volti &")
+
