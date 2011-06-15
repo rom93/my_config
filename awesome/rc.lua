@@ -86,10 +86,10 @@ function activecpu()
 			-- When CPU usage goes above/below 10%
 			str = string.format("%02d", newjiffies-jiffies[cpu])
 
-			if str < "80" then
+			if str < "85" then
 				str = '<span color="#FFFFCC">' .. str .. '</span>'
 			else
-				str = '<span color="red">' .. str .. '</span>'
+				str = '<span color="#A50000">' .. str .. '</span>'
 			end
 
 			s = ' CPU: ' .. str .. '% | '
