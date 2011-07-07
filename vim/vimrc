@@ -59,7 +59,7 @@ map        <F9> :tabdo :e!<CR>:echo '!!! Tabs reloded !!!'<CR>
 " Recharge configuration vim
 map        <F12> :source ~/.vimrc<CR>:echo '!!! Config reloaded !!!'<CR>
 " Ferme l'onglet courant
-map        <C-D> :tabclose!<CR>
+map        <C-W> :tabclose!<CR>
 " Ouvre nouvel onglet
 noremap    <C-T> :tabnew<CR>:tabm<CR>
 " Passe sur l'onglet de gauche
@@ -77,7 +77,7 @@ noremap    ""  :s/\"/\'/g<CR><ESC>: echo'!!! " cleaned !!!'<CR>
 " Rend code conforme à PEP8
 noremap    88 :python clean_syntax()<CR><ESC>: echo '!!! Syntax cleaned !!!'<CR>
 " Met en session et quitte tous les buffers
-command!   Session  silent :mksession! ~/.vim/session.vim | :wqa
+command!   SaveSession  silent :mksession! ~/.vim/session.vim | :wqa
 " Affiche les couleurs en fonction de la syntaxe
 command!   Color    :source $VIMRUNTIME/syntax/hitest.vim
 " MAJ du wiki provexi en local
