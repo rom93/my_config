@@ -81,7 +81,7 @@ command!   SaveSession  silent :mksession! ~/.vim/session.vim | :wqa
 " Affiche les couleurs en fonction de la syntaxe
 command!   Color    :source $VIMRUNTIME/syntax/hitest.vim
 " MAJ du wiki provexi en local
-command!   MajWiki  :!cd ~/sandboxes/PvxCoreApplication/doc;make html
+command!   MajWiki  :!cd ~/zope212/sandboxes/PvxCoreApplication/doc;make html
 " GitGrep dans un nouvel onglet
 command!   -nargs=*                                       GG  call GG(<q-args>)
 " GitDiff dans un nouvel onglet
@@ -214,7 +214,7 @@ def python_uncomment():
 EOF
 
 " Tag les classes de pvxcore
-set tag=~/sandboxes/PvxCoreApplication/tags
+set tag=~/zope212/sandboxes/PvxCoreApplication/tags
 let Tlist_Exit_OnlyWindow=1
 
 " Copier/coller avec souris
