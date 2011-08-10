@@ -1,0 +1,10 @@
+#deb cdrom:[Debian GNU/Linux 6.0.0 _Squeeze_ - Official Snapshot amd64 LIVE/INSTALL Binary 20110324-08:54]/ squeeze main
+
+deb http://ftp.fr.debian.org/debian/ squeeze main contrib non-free
+deb-src http://ftp.fr.debian.org/debian/ squeeze main contrib non-free
+
+deb http://security.debian.org/ squeeze/updates main contrib non-free
+deb-src http://security.debian.org/ squeeze/updates main contrib non-free
+
+deb http://backports.debian.org/debian-backports squeeze-backports main
+deb http://mozilla.debian.net/ squeeze-backports iceweasel-release
