@@ -105,7 +105,7 @@ alias gick='git checkout'
 alias gidc='git diff --check'
 
 # ==================================
-#           SETUP
+#       WORKSTATION SETUP
 # ==================================
 
 # visudo
@@ -116,6 +116,8 @@ alias gidc='git diff --check'
 
 # git config --global user.name "rcr"; git config --global user.email "";git config --global color.branch auto; git config --global color.diff auto; git config --global color.status auto
 # cd ~; git clone https://github.com/rom93/my_config.git; cd my_config;
+# git remote rm origin; git remote add origin git@github.com:rom93/my_config.git
+# Add ssh key
 
 # apt-get install -t squeeze-backports iceweasel
 # apt-get install libdvdcss2 flashplugin-nonfree
