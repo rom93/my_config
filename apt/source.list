@@ -8,3 +8,5 @@ deb-src http://security.debian.org/ squeeze/updates main contrib non-free
 
 deb http://backports.debian.org/debian-backports squeeze-backports main
 deb http://mozilla.debian.net/ squeeze-backports iceweasel-release
+
+deb http://www.debian-multimedia.org/ squeeze main non-free

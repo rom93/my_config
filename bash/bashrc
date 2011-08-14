@@ -103,3 +103,20 @@ alias gica='git commit -a'
 alias gic='git commit'
 alias gick='git checkout'
 alias gidc='git diff --check'
+
+# ==================================
+#           SETUP
+# ==================================
+
+# visudo
+#    rcr ALL=NOPASSWD: AlL
+
+# apt-get update
+# apt-get install git
+
+# git config --global user.name "rcr"; git config --global user.email "";git config --global color.branch auto; git config --global color.diff auto; git config --global color.status auto
+# cd ~; git clone https://github.com/rom93/my_config.git; cd my_config;
+
+# apt-get install -t squeeze-backports iceweasel
+# apt-get install libdvdcss2 flashplugin-nonfree
+# apt-get install vlc chromium-browser conky rxvt-unicode
