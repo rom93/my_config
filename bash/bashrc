@@ -122,3 +122,7 @@ alias gidc='git diff --check'
 # apt-get install -t squeeze-backports iceweasel
 # apt-get install libdvdcss2 flashplugin-nonfree
 # apt-get install vlc chromium-browser conky rxvt-unicode
+
+# CONKY
+# apt-get install conky-all
+# cd ~/dowload; wget https://launchpad.net/~conky-companions/+archive/ppa/+files/conkyforecast_2.20_all.deb; sudo dpkg -i conkyforecast_2.20_all.deb; mkdir ~/tmp;
