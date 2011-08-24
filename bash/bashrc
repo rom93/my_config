@@ -108,21 +108,22 @@ alias gidc='git diff --check'
 #       WORKSTATION SETUP
 # ==================================
 
+# # PREALABLE
 # visudo
 #    rcr ALL=NOPASSWD: AlL
-
 # apt-get update
-# apt-get install git
 
+# # GIT
+# apt-get install git
 # git config --global user.name "rcr"; git config --global user.email "";git config --global color.branch auto; git config --global color.diff auto; git config --global color.status auto
 # cd ~; git clone https://github.com/rom93/my_config.git; cd my_config;
 # git remote rm origin; git remote add origin git@github.com:rom93/my_config.git
-# Add ssh key
+# # Add ssh key
 
-# apt-get install -t squeeze-backports iceweasel
-# apt-get install libdvdcss2 flashplugin-nonfree
-# apt-get install vlc chromium-browser conky rxvt-unicode
+# # DIVERS
+# apt-get install libdvdcss2 flashplugin-nonfree vlc chromium-browser rxvt-unicode
 
-# CONKY
+# # CONKY
 # apt-get install conky-all
 # cd ~/dowload; wget https://launchpad.net/~conky-companions/+archive/ppa/+files/conkyforecast_2.20_all.deb; sudo dpkg -i conkyforecast_2.20_all.deb; mkdir ~/tmp;
+# ln -s my_config/conky/conkyForecast.config .conkyForecast.config; ln -s my_config/conky/conkyrc .conkyrc;
