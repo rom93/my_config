@@ -33,12 +33,15 @@ color0 DD3A21
 # Size and position
 minimum_size 190 190
 alignment top_right
-gap_x 50
-gap_y 20
+gap_x 12
+gap_y 50
 
 lua_load ~/scripts/draw_bg.lua
 lua_draw_hook_pre draw_bg
+text_buffer_size 2048
 
 TEXT
 
 ${exec cat ~/my_config/tri/w_training.txt}
+
+${execpi 1800 conkyForecast --location=FRXX0101 --template=~/my_config/conky/conkyForecast.fontbasedtemplate.template --datatype=PC --startday=0 –locale=fr}

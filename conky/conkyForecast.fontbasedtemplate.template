@@ -1,0 +1,15 @@
+${goto 10}${color5}${font Bitstream Vera Sans Mono:style=Bold:size=14}[--datatype=CT]${font}${color}
+${voffset 5}${goto 10}${font ConkyWeather:style=Bold:size=40}[--datatype=WF]${voffset -5}${goto 110}${font ConkyWindNESW:size=40}[--datatype=BS]${goto 210}${voffset -5}${font moon phases:size=35}[--datatype=MF]${font}
+#${voffset 5}${goto 20}${color5}[--datatype=HT --hideunits] / [--datatype=LT --hideunits]${goto 100}[--datatype=WS --imperial] - [--datatype=WD]${goto 200}[--datatype=MP]${color}
+#${voffset 10}${goto 10}${color3}Station:${color5}${goto 100}[--datatype=CN]
+${goto 10}${color3}T°:${color5}${goto 100}[--datatype=HT--startday=0]/[--datatype=LT --startday=0]
+${goto 10}${color3}Pluie:${color5}${goto 100}[--datatype=PC]
+${goto 10}${color3}Vent:${color5}${goto 100}[--datatype=WS]
+#${goto 10}${color3}UV:${color5}${goto 100}[--datatype=UI] - [--datatype=UT]
+#${goto 10}${color3}Dew Point:${color5}${goto 100}[--datatype=DP]
+#${goto 10}${color3}Bar:${color5}${goto 100}[--datatype=BR] - [--datatype=BD]
+#${goto 10}${color3}Sunrise/Set:${color5}${goto 100}[--datatype=SR] / [--datatype=SS]
+#${goto 10}${color3}${execi 1 conkyForecast-SunsetSunriseCountdown --location=UKXX0103 -t} in:${color5}${goto 100}${execi 1 conkyForecast-SunsetSunriseCountdown --location=UKXX0103 -L}${color}
+${voffset 10}${goto 25}${color5}[--datatype=DW --startday=1 --shortweekday]${goto 100}[--datatype=DW --startday=2 --shortweekday]${goto 175}[--datatype=DW --startday=3 --shortweekday]${goto 250}[--datatype=DW --startday=4 --shortweekday]${color}
+${voffset 5}${goto 10}${font ConkyWeather:size=32}[--datatype=WF --startday=1 --endday=4 --spaces=3]${font}
+${voffset 5}${goto 15}${color5}[--datatype=HT --startday=1 --hideunits --centeredwidth=3]/[--datatype=LT --startday=1 --hideunits --centeredwidth=3]${goto 90}[--datatype=HT --startday=2 --hideunits --centeredwidth=3]/[--datatype=LT --startday=2 --hideunits --centeredwidth=3]${goto 170}[--datatype=HT --startday=3 --hideunits --centeredwidth=3]/[--datatype=LT --startday=3 --hideunits --centeredwidth=3]${goto 245}[--datatype=HT --startday=4 --hideunits --centeredwidth=3]/[--datatype=LT --startday=4 --hideunits --centeredwidth=3]${color}
