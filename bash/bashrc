@@ -104,6 +104,10 @@ alias gic='git commit'
 alias gick='git checkout'
 alias gidc='git diff --check'
 
+# VARIABLE
+next='/home/rcr/zope212/sandboxes/next/patchs/'
+master='/home/rcr/zope212/sandboxes/master/patchs/'
+
 # ==================================
 #       WORKSTATION SETUP
 # ==================================
