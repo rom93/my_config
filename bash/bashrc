@@ -126,6 +126,7 @@ master='/home/rcr/zope212/sandboxes/master/patchs/'
 
 # # DIVERS
 # apt-get install libdvdcss2 flashplugin-nonfree vlc chromium-browser rxvt-unicode
+# ln -s my_config/firefox/pentadactylrc .pentadactylrc
 
 # # CONKY
 # apt-get install conky-all
