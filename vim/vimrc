@@ -97,8 +97,7 @@ imap       ,pdb  import pdb; pdb.set_trace()
 map        ,try  <Esc>otry:<Esc>oexcept:<ESC>oimport pdb; pdb.set_trace()<ESC>kkkddp>>j<<
 map        ,dtr <Esc>dd<<jdddd
 imap       ,gpdb import pdb, sys; pdb.Pdb(stdin=getattr(sys,'__stdin__'),stdout=getattr(sys,'__stderr__')).set_trace(sys._getframe().f_back)
-imap       ,hea  # -*- coding: UTF-8 -*-<CR><CR># Import from standard library<CR><CR># Import from Zope<CR><CR># Import from PvxCoreApplication<CR><CR><CR>from Products.PvxCoreApplication.PvxFactory import parser_module_pour_creer_arbre_architectural<CR>parser_module_pour_creer_arbre_architectural(__name__)
-
+imap       ,hea  # -*- coding: UTF-8 -*-<CR><CR># Import from standard library<CR><CR># Import from Zope<CR><CR># Import from itools<CR><CR># Import from ikaaro<CR><CR># Import from PvxCoreApplication<CR><CR># Imports indirects
 
 " =============================================================================================== "
 "                                  FUNCTIONS                                                      "

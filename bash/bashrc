@@ -2,7 +2,6 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-export PATH=~/bin:$PATH
 export PYTHONPATH=/home/rcr/zope212/bin/python
 
 # If not running interactively, don't do anything
@@ -27,6 +26,8 @@ fi
 
 # Comment in the above and uncomment this below for a color prompt
 PS1='\[\033[01;47m\][\t]${debian_chroot:+($debian_chroot)}\u@\h\:\w\$\[\033[00m\] '
+# Prompt color for servers
+#PS1='\[\033[01;41m\][\t]${debian_chroot:+($debian_chroot)}\u@\h\:\w\$\[\033[00m\] '
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
