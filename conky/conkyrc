@@ -2,7 +2,7 @@
 
 # Default Fonts
 use_xft yes
-xftfont monospace:size=8
+xftfont monospace:size=7.5
 #override_utf8_locale yes
 
 # Performance Settings
@@ -25,16 +25,17 @@ draw_shades 0
 shades_margin 1
 
 # Default Color
-default_color E5C329 #E0DFDE
+default_color E5C329
+#default_color 000000
 
 # Color Title.
 color0 DD3A21
 
 # Size and position
 minimum_size 190 190
-alignment top_right
-gap_x 12
-gap_y 50
+alignment bottom_right
+gap_x 20
+gap_y 20
 
 lua_load ~/my_config/scripts/draw_bg.lua
 lua_draw_hook_pre draw_bg
