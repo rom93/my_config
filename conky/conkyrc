@@ -26,16 +26,17 @@ shades_margin 1
 
 # Default Color
 default_color E5C329
-#default_color 000000
+#default_color 8F7443 
+#default_color 8F7443 
 
 # Color Title.
 color0 DD3A21
 
 # Size and position
 minimum_size 190 190
-alignment bottom_right
+alignment top_right
 gap_x 20
-gap_y 20
+gap_y 45 
 
 lua_load ~/my_config/scripts/draw_bg.lua
 lua_draw_hook_pre draw_bg
@@ -45,4 +46,4 @@ TEXT
 
 ${exec cat ~/my_config/tri/w_training.txt}
 
-${execpi 1800 conkyForecast --location=FRXX0101 --template=~/my_config/conky/conkyForecast.fontbasedtemplate.template --datatype=PC --startday=0 –locale=fr}
+#${execpi 1800 conkyForecast --location=FRXX0101 --template=~/my_config/conky/conkyForecast.fontbasedtemplate.template --datatype=PC --startday=0 –locale=fr}
