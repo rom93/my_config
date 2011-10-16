@@ -1,9 +1,9 @@
-SEMAINE ENTRAINEMENT N°40 / 2011
+SEMAINE ENTRAINEMENT N°42 / 2011
 ================================
 
-DOMINANTE DU CYCLE :  volume cap / natation
+DOMINANTE DU CYCLE : reprise voume
 INTENSITÉ DOMINANTE :  int 1
-NATATION 2h - COURSE 3h - VELO 1h30 - TOTAL 6h40
+NATATION 2h - COURSE 3h - VELO 1h30 - TOTAL 6h30
 
 
 LUNDI
@@ -13,25 +13,23 @@ Natation : séance fiche
 
 MARDI
 =====
-Course à pied  : Marche course allure spé 30'
-Pendant 30 ' alterne marche et course à allure spécifique compet. 
-Dès que tu arrives en int 2, marche jusque tu redescendes à 110 pulsations, 
-ensuite recours , ainsi de suite...
+Natation : séance fiche
 
 
 MERCREDI
 ========
-Natation : séance fiche
+Course à pied  : Endurance de base et vitesse 1H
+Incorpore dans un footing en int 1 10 X 100m couru à allure spécifique 3000m.
+Afin de ne pas trop monter en pulsation et que cette séance soit de la récupération, fais 100m en marchant entre chaque série.
 
 
 JEUDI
 =====
-Course à pied  : Travail Technique 1H
-=> 30' en continu en accélération progressive jusque en int 2
-=> Ligne droite d'éducatif avec la récupération entre chaque en marchant.
-2 X Chaque exercice.
-=> 10' en int 2 bien placé techniquement.
-=> Récup souple
+Course à pied  : Travail technique différents allures int 1 1H
+=> échauffement int 1 en continu'
+=> 3 X ( 2' allure marathon + 2' allure semi + 1' allure 10 km + 1' allure  3000m + 30" allure 1500m + 30" vite + 15" sprint + 15" sprint)
+ la récup entre les séries se fait en int 1 souple pendant 1' ainsi qu'entre les 3 blocs                        
+=> Retour au calme souple
 
 
 VENDREDI
@@ -41,18 +39,11 @@ Activité :  repos
 
 SAMEDI
 ======
-Vélo : 1h 45 vélo INT 2
-=> 15' échauffement int 1
-=> 10 x 30 / 30 int 2 vélocité
-=> 4 x 10' Minutes en in 2 récupération 5'
-=> Récupération en vélocité en int 1
+Vélo : vtt  travail de vélocité en fartleck en int 1 et int 2
 
 
 DIMANCHE
 ========
-Course à pied  : Travail allure Spé 10 KM INT 1 (piste)
-=> échauffement int 1 15'
-=> 20 X 200M couru à allure spécifique 10 km récupération 100m en marchant
-=> Retour au calme souple
-Ce type de séance est une séance technique, tu verras que les pulsations, 
-si la vitesse spécifique est bien respectée, n'ont pas le temps de monter.
+Course à pied  : sortie longue en int 1 en nature
+
+
