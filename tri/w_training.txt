@@ -1,7 +1,7 @@
 SEMAINE ENTRAINEMENT N°42 / 2011
 ================================
 
-DOMINANTE DU CYCLE : reprise voume
+DOMINANTE DU CYCLE : reprise volume
 INTENSITÉ DOMINANTE :  int 1
 NATATION 2h - COURSE 3h - VELO 1h30 - TOTAL 6h30
 
@@ -19,16 +19,18 @@ Natation : séance fiche
 MERCREDI
 ========
 Course à pied  : Endurance de base et vitesse 1H
-Incorpore dans un footing en int 1 10 X 100m couru à allure spécifique 3000m.
-Afin de ne pas trop monter en pulsation et que cette séance soit de la récupération, fais 100m en marchant entre chaque série.
+Incorpore dans un footing en int 1 10 X 100m à allure spécifique 3000m.
+Afin de ne pas trop monter en pulsation et que cette séance soit de la
+récupération, fais 100m en marchant entre chaque série.
 
 
 JEUDI
 =====
 Course à pied  : Travail technique différents allures int 1 1H
 => échauffement int 1 en continu'
-=> 3 X ( 2' allure marathon + 2' allure semi + 1' allure 10 km + 1' allure  3000m + 30" allure 1500m + 30" vite + 15" sprint + 15" sprint)
- la récup entre les séries se fait en int 1 souple pendant 1' ainsi qu'entre les 3 blocs                        
+=> 3 X ( 2' allure marathon + 2' allure semi + 1' allure 10 km + 1' allure  3000m +
+         30" allure 1500m + 30" vite + 15" sprint + 15" sprint)
+   récup entre séries se fait en int 1 souple pendant 1' ainsi qu'entre les 3 blocs
 => Retour au calme souple
 
 
