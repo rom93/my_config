@@ -1,9 +1,9 @@
-SEMAINE ENTRAINEMENT N°42 / 2011
+SEMAINE ENTRAINEMENT N°43 / 2011
 ================================
 
-DOMINANTE DU CYCLE : reprise volume
-INTENSITÉ DOMINANTE :  int 1
-NATATION 2h - COURSE 3h - VELO 1h30 - TOTAL 6h30
+DOMINANTE DU CYCLE : cap volume 
+INTENSITÉ DOMINANTE :  int 2
+NATATION 2h - COURSE 3h10 - VELO 2h - TOTAL 7h10
 
 
 LUNDI
@@ -13,26 +13,24 @@ Natation : séance fiche
 
 MARDI
 =====
-Natation : séance fiche
+Course à pied  : Travail Technique 1H
+=> 30' en accélération progressive jusqu'à int 2
+=> 2 X éducatif
+=> 10' en int 2 bien placé techniquement
+=> Récup souple
 
 
 MERCREDI
 ========
-Course à pied  : Endurance de base et vitesse 1H
-Incorpore dans un footing en int 1 10 X 100m à allure spécifique 3000m.
-Afin de ne pas trop monter en pulsation et que cette séance soit de la
-récupération, fais 100m en marchant entre chaque série.
+Course à pied  : Temps de soutien Int 2 (2 X 20')  1H10'
+=> Echauffement 15' int 1 souple
+=> 2x 20 ' int 2  récupération 5' entre les séries
+=> 10' souple int 1
 
 
 JEUDI
 =====
-Course à pied  : Travail technique différents allures int 1 1H
-=> échauffement int 1 en continu'
-=> 3 X ( 2' allure marathon + 2' allure semi + 1' allure 10 km + 1' allure  3000m +
-         30" allure 1500m + 30" vite + 15" sprint + 15" sprint)
-   récup entre séries se fait en int 1 souple pendant 1' ainsi qu'entre les 3 blocs
-=> Retour au calme souple
-
+Natation : séance fiche
 
 VENDREDI
 ========
@@ -41,11 +39,12 @@ Activité :  repos
 
 SAMEDI
 ======
-Vélo : vtt  travail de vélocité en fartleck en int 1 et int 2
+Course à pied  : Temps de soutien + rappel VMA 1H
+=> Echauffement 15' int 1 souple
+=> 5 X 5' int 2  + 1' à fond  récup 3' en marchant
+=> Récup souple
 
 
 DIMANCHE
 ========
-Course à pied  : sortie longue en int 1 en nature
-
-
+Vélo : vtt sortie longue 2h en int 2  et int 3
