@@ -1,9 +1,9 @@
-SEMAINE ENTRAINEMENT N°43 / 2011
+SEMAINE ENTRAINEMENT N°44 / 2011
 ================================
 
 DOMINANTE DU CYCLE : cap volume 
 INTENSITÉ DOMINANTE :  int 2
-NATATION 2h - COURSE 3h10 - VELO 2h - TOTAL 7h10
+NATATION 2h - COURSE 2h10 - VELO 3h30 - TOTAL 7h40
 
 
 LUNDI
@@ -13,24 +13,24 @@ Natation : séance fiche
 
 MARDI
 =====
-Course à pied  : Travail Technique 1H
-=> 30' en accélération progressive jusqu'à int 2
-=> 2 X éducatif
-=> 10' en int 2 bien placé techniquement
-=> Récup souple
-
-
-MERCREDI
-========
 Course à pied  : Temps de soutien Int 2 (2 X 20')  1H10'
 => Echauffement 15' int 1 souple
 => 2x 20 ' int 2  récupération 5' entre les séries
 => 10' souple int 1
 
 
+MERCREDI
+========
+Natation : séance fiche
+
+
 JEUDI
 =====
-Natation : séance fiche
+Course à pied  : Temps de soutien + rappel VMA 1H
+=> Echauffement 15' int 1 souple
+=> 5 X 5' int 2  + 1' à fond  récup 3' en marchant
+=> Récup souple
+
 
 VENDREDI
 ========
@@ -39,12 +39,10 @@ Activité :  repos
 
 SAMEDI
 ======
-Course à pied  : Temps de soutien + rappel VMA 1H
-=> Echauffement 15' int 1 souple
-=> 5 X 5' int 2  + 1' à fond  récup 3' en marchant
-=> Récup souple
+Vélo : vtt 1h30 en int 1  int 2   int 3
 
 
 DIMANCHE
 ========
-Vélo : vtt sortie longue 2h en int 2  et int 3
+Vélo : vtt 2h en int 1 / int 2
+
