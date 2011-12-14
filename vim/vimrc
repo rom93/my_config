@@ -1,5 +1,5 @@
 " =========================================================================================== "
-"                          CONFIG POUR DEVELOPPEMENT PYTHON                                   "
+"                          CONFIG VIM                                                         "
 " =========================================================================================== "
 
 set nocompatible                 " Rend Vim non compatible avec Vi
@@ -31,11 +31,32 @@ set autowrite                    " Enregistre avant compilation, grep...
 set syntax=rest                  " Coloration des fichier rst
 syntax on                        " Activation de la coloration syntaxique
 colorscheme romanocry            " Thème vim
+"filetype off                     " Detection to determine the type of the current file
 filetype on                      " Detection to determine the type of the current file
 filetype plugin on               " For plugin Pyflakes
 filetype plugin indent on        " For plugin Pyflakes
 au BufRead *.stl so  $VIMRUNTIME/syntax/html.vim  " Coloration des fichiers STL
 let g:pydiction_location = '~/.vim/ftplugin/pydiction-1.2/complete-dict'
+let mapleader = ','
+
+
+" =========================================================================================== "
+"                                            PLUGINS VUNDLE                                 "
+" =========================================================================================== "
+
+set rtp+=~/.vim/bundle/vundle/
+call vundle#rc()
+
+" ===== Dépots github officiel de vim (https://github.com/vim-scripts/)
+Bundle 'gmarik/vundle'
+Bundle 'The-NERD-tree'
+Bundle 'taglist.vim'
+Bundle 'pep8'
+Bundle 'RST-Tables'
+" ===== Dépots github (https://github.com)
+Bundle 'motemen/git-vim'
+" ===== Autres dépots Git
+
 
 " =============================================================================================== "
 "                                  HOTKEYS                                                        "
@@ -83,6 +104,7 @@ command!   Color    :source $VIMRUNTIME/syntax/hitest.vim
 " MAJ du wiki provexi en local
 command!   MajWiki  :!cd ~/zope212/sandboxes/PvxCoreApplication/doc;make html
 " GitGrep dans un nouvel onglet
+command! Filepath :!echo %:p
 command!   -nargs=*                                       GG  call GG(<q-args>)
 " GitDiff dans un nouvel onglet
 command!   -nargs=* -complete=customlist,ListGitCommits   GD  call GD(<q-args>)
@@ -98,6 +120,7 @@ map        ,try  <Esc>otry:<Esc>oexcept:<ESC>oimport pdb; pdb.set_trace()<ESC>kk
 map        ,dtr <Esc>dd<<jdddd
 imap       ,gpdb import pdb, sys; pdb.Pdb(stdin=getattr(sys,'__stdin__'),stdout=getattr(sys,'__stderr__')).set_trace(sys._getframe().f_back)
 imap       ,hea  # -*- coding: UTF-8 -*-<CR><CR># Import from standard library<CR><CR># Import from Zope<CR><CR># Import from itools<CR><CR># Import from ikaaro<CR><CR># Import from PvxCoreApplication<CR><CR># Imports indirects
+
 
 " =============================================================================================== "
 "                                  FUNCTIONS                                                      "
@@ -267,91 +290,11 @@ endfunction
 
 
 " =============================================================================================== "
-"                                      SETUP                                                      "
-" =============================================================================================== "
-
-" ==> A partir des paquets
-" sudo apt-get install vim-gnome exuberant-ctags
-"
-" ==> A partir du code source
-" sudo apt-get build-dep vim-gnome
-" hg clone https://vim.googlecode.com/hg/ vim
-" cd vim/src
-" ./configure \
-"   --enable-pythoninterp=yes \
-"   --enable-python3interp=yes \
-"   --enable-rubyinterp \
-"   --enable-perlinterp=yes \
-"   --enable-tclinterp \
-"   --enable-cscope \
-"   --enable-sniff \
-"   --enable-multibyte \
-"   --enable-gtk2-check=yes \
-"   --enable-gui=auto \
-"   --enable-fontset \
-"   --with-x \
-"   --with-features=huge
-" make
-" make install
-
-" Installer xclip pour permettre de faire des copier/coller avec Ctrl-C et Ctrl-V
-
-" =============================================================================================== "
-"                                      PLUGINS                                                    "
-" =============================================================================================== "
-
-" ==> Zenburn :
-"    * Fonction : colorsheme
-"    * Url : http://www.vim.org/scripts/script.php?script_id=415
-
-" ==> Taglist : menu de navigation de la classe courante
-"    * Fonction : rajoute sur la gauche de l'écran un menu de navigation de la classe courante
-"    * URL : http://sourceforge.net/project/showfiles.php?group_id=181103
-"    * Installation :
-"         - Décompresser le plugin dans ~/.vim
-"         - $ cd ~/.vim/doc
-"         - $ vim
-"         - :helptags .
-
-" ==> Pyflakes
-"    * Fonction : Vérifie syntaxe python
-"    * URL : www.vim.org/scripts/script.php?script_id=2441
-"    * Installation :
-"         - Récupérer et dézipper dans ~/.vim/ftplugin/python
-
-" ==> Git-vim
-"    * Fonction : Commandes git sous vim
-"    * URL : git.jukie.net/git-vim.git
-"    * Installation :
-"         - $ cd ~/.vim
-"         - $ git clone git://git.jukie.net/git-vim.git
-
-" ==> Align
-"    * Fonction : Alignement du texte
-"    * URL : http://www.vim.org/scripts/script.php?script_id=294
-
-" ==> NERDTree
-"    * Fonction : Exploreur de filesystem
-"    * URL : http://www.vim.org/scripts/script.php?script_id=1658
-"    * Installation :
-"         - Décompresser le plugin dans ~/.vim"
-
-" ==> Pep8
-"    * Fonction : Vérifie si code python respecte PEP8
-"    * URL : http://www.vim.org/scripts/script.php?script_id=2914
-"    * Installation :
-"         - Installer préalablement pep8.py : easy_install pep8
-
-" ==> RestructuredText
-"    * Fonction : Coloration syntaxique des fichiers rst
-"    * URL : http://www.vim.org/scripts/script.php?script_id=973
-"    * Installation :
-"        - Dézipper dans le répertoire ~/.vim/syntax
-
-
-" =============================================================================================== "
 "                                     HELP                                                        "
 " =============================================================================================== "
+
+" ==> Installation
+" sudo apt-get install vim-gnome exuberant-ctags
 
 " ==> TAG
 "   Tag stack
