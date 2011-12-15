@@ -52,7 +52,8 @@ Bundle 'gmarik/vundle'
 Bundle 'The-NERD-tree'
 Bundle 'taglist.vim'
 Bundle 'pep8'
-Bundle 'RST-Tables'
+"Bundle 'RST-Tables'
+Bundle 'RST-Tables-works-with-non-english-langu'
 " ===== Dépots github (https://github.com)
 Bundle 'motemen/git-vim'
 " ===== Autres dépots Git
