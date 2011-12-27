@@ -52,10 +52,12 @@ Bundle 'gmarik/vundle'
 Bundle 'The-NERD-tree'
 Bundle 'taglist.vim'
 Bundle 'pep8'
+"Bundle 'kevinw/pyflakes-vim'
 "Bundle 'RST-Tables'
 Bundle 'RST-Tables-works-with-non-english-langu'
 " ===== Dépots github (https://github.com)
 Bundle 'motemen/git-vim'
+Bundle 'tjennings/git-grep-vim'
 " ===== Autres dépots Git
 
 
@@ -99,7 +101,7 @@ noremap    ""  :s/\"/\'/g<CR><ESC>: echo'!!! " cleaned !!!'<CR>
 " Rend code conforme à PEP8
 noremap    88 :python clean_syntax()<CR><ESC>: echo '!!! Syntax cleaned !!!'<CR>
 " Met en session et quitte tous les buffers
-command!   SaveSession  silent :mksession! ~/.vim/session.vim | :wqa
+command!   SaveSession  silent :mksession! ~/.session.vim | :wqa
 " Affiche les couleurs en fonction de la syntaxe
 command!   Color    :source $VIMRUNTIME/syntax/hitest.vim
 " MAJ du wiki provexi en local

@@ -2,7 +2,7 @@
 
 # Default Fonts
 use_xft yes
-xftfont monospace:size=7.5
+xftfont monospace:size=8
 #override_utf8_locale yes
 
 # Performance Settings
@@ -16,7 +16,7 @@ text_buffer_size 356
 # Window Settings
 own_window yes
 #own_window_type override
-own_window_type normal 
+own_window_type normal
 own_window_transparent yes
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 #own_window_hints undecorated,below,sticky,skip_ta
@@ -27,21 +27,21 @@ draw_shades 0
 shades_margin 1
 
 # Default Color
-default_color E5C329
-#default_color 8F7443 
-#default_color 8F7443 
+#default_color E5C329
+default_color 60D2F6
+#default_color 8F7443
 
 # Color Title.
-color0 DD3A21
+#color0 DD3A21
 
 # Size and position
 minimum_size 190 190
 alignment top_right
 gap_x 20
-gap_y 45 
+gap_y 45
 
-lua_load ~/my_config/scripts/draw_bg.lua
-lua_draw_hook_pre draw_bg
+#lua_load ~/my_config/scripts/draw_bg.lua
+#lua_draw_hook_pre draw_bg
 text_buffer_size 2048
 
 TEXT

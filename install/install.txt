@@ -1,0 +1,1 @@
+mkdir -p ~/.config/lxsession/LXDE; ln -s ~/my_config/lxde/autostart ~/.config/lxsession/LXDE/autostart
