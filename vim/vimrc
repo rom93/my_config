@@ -52,10 +52,10 @@ Bundle 'gmarik/vundle'
 Bundle 'The-NERD-tree'
 Bundle 'taglist.vim'
 Bundle 'pep8'
-"Bundle 'kevinw/pyflakes-vim'
 "Bundle 'RST-Tables'
 Bundle 'RST-Tables-works-with-non-english-langu'
 " ===== Dépots github (https://github.com)
+Bundle 'kevinw/pyflakes-vim'
 Bundle 'motemen/git-vim'
 Bundle 'tjennings/git-grep-vim'
 " ===== Autres dépots Git
@@ -82,6 +82,14 @@ map        <F9> :tabdo :e!<CR>:echo '!!! Tabs reloded !!!'<CR>
 "          <F11> Agrandi la fenêtre
 " Recharge configuration vim
 map        <F12> :source ~/.vimrc<CR>:echo '!!! Config reloaded !!!'<CR>
+" Déplace l'écran d'une ligne vers le haut
+map        <C-K> <C-E>
+" Déplace l'écran d'une ligne vers le bas
+map        <C-J> <C-Y>
+" Déplace 1/2 écran vers le haut
+map        <A-K> <C-u>
+" Déplace 1/2 écran vers le bas
+map        <A-J> <C-d>
 " Ferme l'onglet courant
 map        <C-W> :tabclose!<CR>
 " Ouvre nouvel onglet

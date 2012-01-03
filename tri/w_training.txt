@@ -1,41 +1,54 @@
-ENTRAINEMENT Sem. 52 / 2011
-===========================
+==============================================
+          ENTRAINEMENT Sem. 01 / 2012
+==============================================
 
-DOMINANTE DU CYCLE : Regénération
+DOMINANTE DU CYCLE : Test de début d'année
 INTENSITÉ DOMINANTE :  int 1
-NATATION 2h - COURSE 3h40 - VELO 2h - TOTAL 7h40
+INTENSITÉ COMPLEMENTAIRE :  int 2 et 3
+NAT 2h - CAP 1h10 - VEL 4h30 - TOTAL 7h30
 
 
 LUNDI
 =====
-Natation : séance fiche technique
+Vélo : vtt 1h en int 1 et 2
+Course à pied : Test 4KM int 2
+=> Récupération souple
 
 
 MARDI
 =====
-Course à pied  : 35 min en int 1
+Natation : séance fiche
 
 
 MERCREDI
 ========
-Natation : séance fiche technique
+Course à pied :
+=> Échauffement int 1 + passages en int 2
+=> Test de 4KM en int 2
 
 
 JEUDI
 =====
-Activité :  repos
+Natation : test 400m
 
 
 VENDREDI
 ========
-Activité :  repos
+Repo
 
 
 SAMEDI
 ======
-Vélo : 2h en int 1 / 2
+Vélo : Test 2 X 15 km en int 2 et 3 2H
+=> 30' échauffement int 1 + passages en int 2
+=> 1 tour chrono en int 2
+=> 1 tour chrono en int 3
+=> 30 ' de récup souple
+CAP  : Enchainé avec 30' TEST 4KM EN INT 2
+=> Test de 4KM en int 2
+=> Récupération souple
 
 
 DIMANCHE
 ========
-Course à pied  : sortie longue 2h int 1 en nature
+Vélo : vtt vélocité 2h30 int 1 dominante
