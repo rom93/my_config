@@ -304,22 +304,22 @@ endfunction
 "                                     HELP                                                        "
 " =============================================================================================== "
 
-" ==> Installation vim + modules
-" sudo apt-get install vim-gnome exuberant-ctags
-" cd ~/.vim; git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-" cd ~/.vim/bundle/vundle; git submodule init; git submodule update
-
 " ==> TAG
 "   Tag stack
 "   * :tj / --> Recherche le tag après le /
 "   * :po --> Revenir à l'écran précédent
 
-" ==> Comment installer un vimball?
-"   1. vim tail-03.vba
-"   2. :so %
-"
-" ==> Spilt and scroll simultaneously
-"  :set scb!      #scrollbind
-"
 " ==> Rechercher / remplacer dans un répertoire
 " find . -name "*.py" -exec sed -i 's/toto/tata/g' {}\;
+
+
+" =============================================================================================== "
+"                                     INSTALL VIM + MODULES                                       "
+" =============================================================================================== "
+
+" ==> Installation vim + modules
+" sudo apt-get install git-core vim-gnome exuberant-ctags python-sphinx
+" mkdir -p ~/.vim/bundle/vundle; cd ~/.vim; git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
+" cd ~/.vim/bundle/vundle; git submodule init; git submodule update
+" vi
+" :BundleInstall!
