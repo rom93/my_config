@@ -1,10 +1,9 @@
 ==============================================
           ENTRAINEMENT Sem. 01 / 2012
 ==============================================
-DOMINANTE DU CYCLE : Test de début d'année
-INTENSITÉ DOMINANTE :  int 1
-INTENSITÉ COMPLEMENTAIRE :  int 2 et 3
-NAT 2h - CAP 1h10 - VEL 4h30 - TOTAL 7h30
+CYCLE : Tests début d'année
+INTENSITE :  INT 1 (+ INT 2/3)
+NAT 2h | CAP 1h10 | VEL 4h30 | TOTAL 7h30
 
 LUNDI
 =====

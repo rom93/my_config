@@ -2,7 +2,7 @@
 
 # Default Fonts
 use_xft yes
-xftfont monospace:size=8
+xftfont monospace:size=7.5
 default_color 90BF3A
 
 # Performance Settings
@@ -14,7 +14,7 @@ net_avg_samples 2
 
 # Window Settings
 own_window yes
-own_window_type normal
+own_window_type desktop
 own_window_transparent yes
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
 
@@ -25,8 +25,8 @@ shades_margin 1
 
 # Size and position
 alignment top_right
-gap_x 17
-gap_y 40
+gap_x 27
+gap_y 55
 
 lua_load ~/my_config/scripts/draw_bg.lua
 lua_draw_hook_pre draw_bg
