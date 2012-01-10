@@ -7,7 +7,7 @@ NAT 2h | CAP 4h30 | VEL 2h30 | TOTAL 9h
 
 LUNDI
 =====
-Séance fiche
+NAT : Séance fiche
 
 MARDI
 =====
@@ -28,20 +28,25 @@ VEL : HOME TRAINEUR FORCE 50'
 MERCREDI
 ========
 CAP : Endurance de base et vitesse 1H
-Incorpore dans un footing INT 1, 10 X 100m couru à allure 3000m
-Afin de ne pas trop monter en pulsation et que cette séance soit
-de la récupération, fais 100m en marchant entre chaque série.
+footing INT 1
+incorport 10 X 100m allure 3000m
+-> 100m en marchant entre chaque série.
 
 JEUDI
 =====
-NAT : Séance Fiche
+CAP : Vitesse longue 1H05
+Echauffement 15' int 1 souple
+2 X 10 x 1'/1' (r = marche, R = 5' footing)
+-> séries 1' vite, finir en int 3
+Récup souple
 
 VENDREDI
 ========
-Repos
+NAT : Séance Fiche
 
 SAMEDI
 ======
+Repos
 
 DIMANCHE
 ========
