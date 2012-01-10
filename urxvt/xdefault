@@ -18,3 +18,6 @@ URxvt.visualBell: true
 
 !Cursor
 URxvt*cursorBlink: on
+
+!Various
+!URxvt*transparent: true

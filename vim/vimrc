@@ -55,7 +55,7 @@ Bundle 'pep8'
 "Bundle 'RST-Tables'
 Bundle 'RST-Tables-works-with-non-english-langu'
 " ===== Dépots github (https://github.com)
-Bundle 'kevinw/pyflakes-vim'
+"Bundle 'kevinw/pyflakes-vim'
 Bundle 'motemen/git-vim'
 Bundle 'tjennings/git-grep-vim'
 " ===== Autres dépots Git
