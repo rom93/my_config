@@ -127,7 +127,7 @@ master='/home/rcr/zope212/sandboxes/master/patchs/'
 # # Add ssh key
 
 # # DIVERS
-# apt-get install libdvdcss2 flashplugin-nonfree vlc chromium-browser rxvt-unicode
+# apt-get install chromium-browser rxvt-unicode-256 terminator conky-all vlc
 # ln -s my_config/firefox/pentadactylrc .pentadactylrc
 
 # # CONKY
