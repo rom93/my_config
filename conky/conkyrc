@@ -34,5 +34,5 @@ text_buffer_size 2048
 
 TEXT
 
-${exec cat ~/my_config/tri/w_training.txt}
+${exec cat ~/my_config/tri/00_w00_training.txt}
 #${execpi 1800 conkyForecast --location=FRXX0101 --template=~/my_config/conky/conkyForecast.fontbasedtemplate.template --datatype=PC --startday=0 –locale=fr}
