@@ -1,54 +1,67 @@
-==============================================
-          ENTRAINEMENT Sem. 02 / 2012
-==============================================
-CYCLE : Volume CAP + Vitesse
-INTENSITE : INT 2
-NAT 2h | CAP 4h30 | VEL 2h30 | TOTAL 9h
+===========================================================
+                ENTRAINEMENT Sem. 04 / 2012
+===========================================================
+CYCLE : Vélo
+INTENSITE : INT 1 (+ INT 3)
+NAT 2h | CAP 2h | VEL 6h | TOTAL 10h
 
-LUNDI
-=====
+----------------------------------------------------------
+                        LUNDI
+----------------------------------------------------------
 NAT : Séance fiche
 
-MARDI
-=====
-CAP : Accumulation vitesse courte 1H
-=> Echauffement 15' int 1 souple
-=> 5 X 10x 20"/20"
-Entre chaque bloc, 5' INT 2 en continu
+----------------------------------------------------------
+                        MARDI
+----------------------------------------------------------
+VEL : Séance Home traineur 50' force
+=> 10' Échauffement en vélocité en int 1
+=> 30' sous la forme :
+3 X (7' de force 50 tours/min int 2
+     + 2' puissance maximum
+     + Récup 1' int 1)
+=> 10' int 1 vélocité.
+
+CAP  : Allure spécifique 10 Km INT 2 1H
+=> Échauffement Int 1
+=> 30 X 30 / 30 INT 2
+Veille à rester en int 2 en courant à allure spé 10 Km.
+Si les puls montent trop, marche 30 ''
+=> Retour au calme souple
+
+----------------------------------------------------------
+                        MERCREDI
+----------------------------------------------------------
+NAT : séance fiche
 
 VEL : HOME TRAINEUR FORCE 50'
 10' progressif, finis en int 2
-4 X 5' force INT 2 Recup 1'
--> gros braquet INT 2
+4 X 5' force int 2 Recup 1'
+Gros braquet INT 2 tout en travaillant la force.
 5 ' hypervélocité int 1
-15' force en rajoutant résistance toutes les 5'
--> dois finir en int 2 haute.
-#5' souple int 1
+15' en force en rajoutant résistance toutes les 5'
+Tu dois finir en int 2 haute.
+5' souple int 1
 
-MERCREDI
-========
-CAP : Endurance de base et vitesse 1H
-footing INT 1
-incorport 10 X 100m allure 3000m
--> 100m en marchant entre chaque série.
+----------------------------------------------------------
+                         JEUDI
+----------------------------------------------------------
+REPOS
 
-JEUDI
-=====
-CAP : Vitesse longue 1H05
-Echauffement 15' int 1 souple
-2 X 10 x 1'/1' (r = marche, R = 5' footing)
--> séries 1' vite, finir en int 3
-Récup souple
+----------------------------------------------------------
+                         VENDREDI
+----------------------------------------------------------
+CAP  : Accumulation vitesse courte 1H
+=> Echauffement 15' int 1 souple
+=> 5 X 10x 20"/20"
+Entre chaque bloc, fais 5' d'int 2 en continu
+=> Récup souple
 
-VENDREDI
-========
-NAT : Séance Fiche
+----------------------------------------------------------
+                        SAMEDI
+----------------------------------------------------------
+VEL : vtt en int 3  2h régulièrement
 
-SAMEDI
-======
-Repos
-
-DIMANCHE
-========
-VEL : Plaisir 1h30 en int 1 / 2
-CAP : Sortie longue en int 1 1h30/45 plaisir
+----------------------------------------------------------
+                        DIMANCHE
+----------------------------------------------------------
+VEL : vtt sortie plaisir en int 1  2h
