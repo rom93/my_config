@@ -1,9 +1,9 @@
 ===========================================================
-                ENTRAINEMENT Sem. 05 / 2012
+                ENTRAINEMENT Sem. 04 / 2012
 ===========================================================
-CYCLE : Mixte
-INTENSITE : INT 1 (+ INT 2, INT 3)
-NAT 2h | CAP 2h30 | VEL 4h30 | TOTAL 9h
+CYCLE : Vélo
+INTENSITE : INT 1 (+ INT 3)
+NAT 2h | CAP 2h | VEL 6h | TOTAL 10h
 
 ----------------------------------------------------------
                         LUNDI
@@ -13,50 +13,55 @@ NAT : Séance fiche
 ----------------------------------------------------------
                         MARDI
 ----------------------------------------------------------
-NAT : Séance fiche
+VEL : Séance Home traineur 50' force
+=> 10' Échauffement en vélocité en int 1
+=> 30' sous la forme :
+3 X (7' de force 50 tours/min int 2
+     + 2' puissance maximum
+     + Récup 1' int 1)
+=> 10' int 1 vélocité.
 
-VEL HT Force / Cap / Muscul sans charge
-VEL : HT 5' en int 1 en vélocité
-MUS : Travail en isométrie quadris et fessiers
-3 x chaise (quand cuisses brulent continuer 10") (r=30")
-VEL : HT 10' en force, termine en int 2 basse.
-MUS : Ex. de la chaise IDEM
-CAP : 20' INT 2 basse avec côtes
-MUS : Ex. de la chaise IDEM
-VEL : HT 20'
-first 5' INT 2 force puis INT 1 vélocité
+CAP  : Allure spécifique 10 Km INT 2 1H
+=> Échauffement Int 1
+=> 30 X 30 / 30 INT 2
+Veille à rester en int 2 en courant à allure spé 10 Km.
+Si les puls montent trop, marche 30 ''
+=> Retour au calme souple
 
 ----------------------------------------------------------
                         MERCREDI
 ----------------------------------------------------------
-CAP : Temps de soutien Int 2 progressif avec FV 1H05'
-=> 15' échauffement
-=> 40' en accélération progressive INT 2
-last 10' INT 3, last 30" VMA
-=> 10' Récup
+NAT : séance fiche
+
+VEL : HOME TRAINEUR FORCE 50'
+10' progressif, finis en int 2
+4 X 5' force int 2 Recup 1'
+Gros braquet INT 2 tout en travaillant la force.
+5 ' hypervélocité int 1
+15' en force en rajoutant résistance toutes les 5'
+Tu dois finir en int 2 haute.
+5' souple int 1
 
 ----------------------------------------------------------
                          JEUDI
 ----------------------------------------------------------
-CAP : Montée escalier et Vma à la piste
-Travail de force + INT 3
-=> 10' int 1 souple
-=> 2' Montées escaliers bien placé techniquement.
-Enchainé avec un 400 m vite .
-Fais cette série 6 fois (R=3' en marchant)
-=> Récup souple
+REPOS
 
 ----------------------------------------------------------
                          VENDREDI
 ----------------------------------------------------------
-REP
+CAP  : Accumulation vitesse courte 1H
+=> Echauffement 15' int 1 souple
+=> 5 X 10x 20"/20"
+Entre chaque bloc, fais 5' d'int 2 en continu
+=> Récup souple
 
 ----------------------------------------------------------
                         SAMEDI
 ----------------------------------------------------------
-VEL : en int 3 dans les difficultés  2h
+VEL : vtt en int 3  2h régulièrement
 
 ----------------------------------------------------------
                         DIMANCHE
 ----------------------------------------------------------
-VEL : vélocité le maxi en int 2 en vtt 2h
+VEL : vtt sortie plaisir en int 1  2h
