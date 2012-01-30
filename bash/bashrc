@@ -116,21 +116,20 @@ master='/home/rcr/zope212/sandboxes/master/patchs/'
 
 # # PREALABLE
 # visudo
-#    rcr ALL=NOPASSWD: AlL
+     %sudo   ALL=NOPASSWD: ALL
+# adduser rcr sudo
 # apt-get update
 
+# # DIVERS
+# sudo apt-get install git chromium-browser rxvt-unicode-256color terminator conky-all vlc revelation
+# ln -s my_config/firefox/pentadactylrc .pentadactylrc
+
 # # GIT
-# apt-get install git
 # git config --global user.name "rcr"; git config --global user.email "";git config --global color.branch auto; git config --global color.diff auto; git config --global color.status auto
 # cd ~; git clone https://github.com/rom93/my_config.git; cd my_config;
 # git remote rm origin; git remote add origin git@github.com:rom93/my_config.git
 # # Add ssh key
 
-# # DIVERS
-# apt-get install chromium-browser rxvt-unicode-256 terminator conky-all vlc
-# ln -s my_config/firefox/pentadactylrc .pentadactylrc
-
 # # CONKY
-# apt-get install conky-all
 # cd ~/dowload; wget https://launchpad.net/~conky-companions/+archive/ppa/+files/conkyforecast_2.20_all.deb; sudo dpkg -i conkyforecast_2.20_all.deb; mkdir ~/tmp;
 # ln -s my_config/conky/conkyForecast.config .conkyForecast.config; ln -s my_config/conky/conkyrc .conkyrc;
