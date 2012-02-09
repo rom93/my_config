@@ -38,6 +38,7 @@ filetype plugin indent on        " For plugin Pyflakes
 au BufRead *.stl so  $VIMRUNTIME/syntax/html.vim  " Coloration des fichiers STL
 let g:pydiction_location = '~/.vim/ftplugin/pydiction-1.2/complete-dict'
 let mapleader = ','
+let g:pyflakes_use_quickfix = 0
 
 
 " =========================================================================================== "
@@ -53,9 +54,9 @@ Bundle 'The-NERD-tree'
 Bundle 'taglist.vim'
 Bundle 'pep8'
 "Bundle 'RST-Tables'
-Bundle 'RST-Tables-works-with-non-english-langu'
+"Bundle 'RST-Tables-works-with-non-english-langu'
 " ===== Dépots github (https://github.com)
-"Bundle 'kevinw/pyflakes-vim'
+Bundle 'kevinw/pyflakes-vim'
 Bundle 'motemen/git-vim'
 Bundle 'tjennings/git-grep-vim'
 " ===== Autres dépots Git
