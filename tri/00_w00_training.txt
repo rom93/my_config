@@ -1,48 +1,40 @@
 ===========================================================
-                ENTRAINEMENT Sem. 06 / 2012
+                ENTRAINEMENT Sem. 07 / 2012
 ===========================================================
-CYCLE : Mixte
-INTENSITE : INT 1 (+ INT 2, INT 3)
-NAT 2h | CAP 2h30 | VEL 7h | TOTAL 11h30
+CYCLE : Regénération
+INTENSITE : INT 1
+NAT 2h | CAP 3h45 | VEL 2h | TOTAL 7h45
 
 ----------------------------------------------------------
                         LUNDI
 ----------------------------------------------------------
-NAT : Séance fiche
+NAT : Séance fiche en INT1
 
 ----------------------------------------------------------
                         MARDI
 ----------------------------------------------------------
-HT + CAP + MUS
-VÉL : HT 5' en int 1 en vélocité
-MUS : 3 x chaise (qd ça brule, attendre 10')
-VÉL : HT 10' en force, termine en int 2 basse.
-MUS : 3 x chaise (qd ça brule, attendre 10')
-CAP : 20' INT1 en côte
-MUS : 3 x chaise (qd ça brule, attendre 10')
-VÉL : HT 20'
-First 5' INT2 force puis récup INT1 vélocité
+CAP  : Travail technique différents allures int 1 1H
+=> échauffement int 1 en continu'
+=> 3 X (2' allure marathon + 2' allure semi +
+        1' allure 10 km + 1' allure  3000m +
+        30" allure 1500m + 30" vite +
+        15" sprint + 15" sprint)
+    r=1' INT1 souple
+=> Retour au calme souple
 
 ----------------------------------------------------------
                         MERCREDI
 ----------------------------------------------------------
-CAP : Temps de soutien Allure spé LD
-=> Echauffement 15' INT1 souple
-=> 15 X 800m' en INT2 vitesse tri LD (r=200m souple)
+CAP  : Travail Technique 1H
+=> 30' accélération progressive jusque en int 2
+=> 2 X Ligne droite d'éducatif (r=retour en marchant)
+=> 10' en int 2 bien placé techniquement.
 => Récup souple
 
 ----------------------------------------------------------
                          JEUDI
 ----------------------------------------------------------
 NAT : séance fiche
-
-HT 50' vitesse int 2
-=> 10' Échauffement en vélocité en int 1
-=> 20 X (20 / 40) int 2 vitesse.
-20'' très vite / 40'' très souple pendant 20'
-=> 5' int 1
-=> 5' int 2 en continu vélocité
-=> 10' de récup souple int 1
 
 ----------------------------------------------------------
                          VENDREDI
@@ -52,23 +44,10 @@ REP
 ----------------------------------------------------------
                         SAMEDI
 ----------------------------------------------------------
-VEL : 2h à 2H30' progresif palier de 10'
-=> échauffement souple
-=> 10 x 30/30 vélocité INT2
-=> 20' souple
-=> 5 X 10' récupération 3' (gros braquet récup + série)
-Progressif en intensité :
-1er Int 1 haute
-2éme INT 2 basse
-3éme Int 2 milieu de zone
-4éme à int 2 milieu de zone
-5éme à int 2 haute
-=> Récupération en continu int 1
+VEL : en int 1  2h
 
 ----------------------------------------------------------
                         DIMANCHE
 ----------------------------------------------------------
-VEL : 2h30 à 3h en int 1
-CAP  : 40 min en int 1
-
+CAP : footing 1h45 en nature en int 1
 
