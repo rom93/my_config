@@ -1,53 +1,57 @@
+                ENTRAINEMENT Sem. 11 / 2012
 ===========================================================
-                ENTRAINEMENT Sem. 08 / 2012
-===========================================================
-CYCLE : Regénération
+CYCLE : Volume
 INTENSITE : INT 3
-NAT 2h | CAP 3h | VEL 4h | TOTAL 9h
+NAT 2h | CAP 2h15 | VEL 5h | TOTAL 9h15
 
-----------------------------------------------------------
                         LUNDI
 ----------------------------------------------------------
-NAT : Séance fiche1
+NAT : Séance fiche
 
-----------------------------------------------------------
                         MARDI
 ----------------------------------------------------------
-CAP : Test Chrono int 2 et 3 de 4KM 1H15'
-=> 15' d'échauffement int 1
-=> Test de 4 km int 2
-=> 5' marche
-=> Test de 4Km int 3
-=> Récup souple
+NAT : Séance fiche
 
-----------------------------------------------------------
                         MERCREDI
 ----------------------------------------------------------
-NAT : Test 400m
+CAP  : int 3 45' int 3
+=> 20 ' échauffement int 1
+=> 2000 m allure spé 10 km récupération 5' en marche
+=> 1000 m Allure spé 5km récupération 3' en marche
+=> 3 x 1' allure spé 5km recup 1'
+=> Retour au calme souple et étirements.
 
+                        JEUDI
 ----------------------------------------------------------
-                         JEUDI
-----------------------------------------------------------
-CAP  : INT 2 PYRAMIDE TRONQUEE piste 1H
-=> 15' souple int 1
-=> 3X200+2X300+2X400+1X500+2X300+3X200 INT2
-   (r=15'' en marchant)
-=> 15 ' souple int 1
-=> Etirements
+CAP  : 1h avec course en palier INT 2 et 3
+=> 15' de mise en routes souple int 1
+=> 5' int 2 basse Récupération 2' en marchant
+=> 10' int 2 haute Récupération 2' en marchant
+=> 5' INT3 haute (très vite) Récupération 2' en marchant
+=> 10' int 2 haute Récupération 2' en marchant
+=> retour au calme souple int 1
 
-----------------------------------------------------------
-                         VENDREDI
+                        VENDREDI
 ----------------------------------------------------------
 REP
 
-----------------------------------------------------------
                         SAMEDI
 ----------------------------------------------------------
-Vélo : route  2h30 en int 1  vélocité
+VEL : Test 2 X 15 km en int 2 et 3 2H
+=> 30' INT1 en incluant quelques petits passages en int 2
+=> 1 tour chrono en int 2
+=> Enchainé 1 tour chrono en int 3
+=> 30 ' de récup souple
 
-----------------------------------------------------------
+CAP  : Enchainé avec 30' TEST 4KM EN INT 2
+=> Test de 4KM en int 2
+=> Récupération souple
+
                         DIMANCHE
 ----------------------------------------------------------
-VEL : 1h30 en int 1, int 2  en récup
-CAP : cross du comité , ça serait bien
+VEL : Bosses int 2  3h
+Durant la sortie, monte toutes les bosses en int 2.
+
+
+
 

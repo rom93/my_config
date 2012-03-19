@@ -1,1 +1,3 @@
 set guioptions=TBrs
+:com! -nargs=* google-fr,g tabopen google.fr/#q=<args>
+:map <C-t> :tabopen google.fr<CR>
