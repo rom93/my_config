@@ -34,9 +34,9 @@ REP
 
                         SAMEDI
 ----------------------------------------------------------
-Vélo : 1h en int 1  vélocité
+VEL : 1h en int 1  vélocité
 
                         DIMANCHE
 ----------------------------------------------------------
-10 km la rivière
-Vélo :  après la course 1h en int 1 récup
+CAP : 10 km la rivière de corps
+VEL : après la course 1h en int 1 récup
