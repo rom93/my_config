@@ -24,10 +24,19 @@ if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
     debian_chroot=$(cat /etc/debian_chroot)
 fi
 
-# Comment in the above and uncomment this below for a color prompt
-PS1='\[\033[01;47m\][\t]${debian_chroot:+($debian_chroot)}\u@\h\:\w\$\[\033[00m\] '
-# Prompt color for servers
-#PS1='\[\033[01;41m\][\t]${debian_chroot:+($debian_chroot)}\u@\h\:\w\$\[\033[00m\] '
+## Prompt --> To put in /etc/profile (think to remove PS1 in .bashrc)
+## PS1 for localhost
+#if [[ ${EUID} == 0 ]] ; then
+#        PS1='\[\033[01;30;47m\][\t]\u@\h:\w\033[01;31m\$\[\033[00m\] '
+#else
+#        PS1='\[\033[01;30;47m\][\t]\u@\h:\w\$\[\033[00m\] '
+#fi
+#
+## PS1 for server
+#if [[ ${EUID} == 0 ]] ; then
+#     PS1='\[\033[01;30;47m\][\t]\u@\033[01;31;47m\h\033[01;30;47m:\w\033[01;31m\$\[\033[00m\] '
+#else
+#     PS1='\[\033[01;30;47m\][\t]\u@\033[01;31;47m\h\033[01;30;47m:\w\$\[\033[00m\] '
 
 # If this is an xterm set the title to user@host:dir
 case "$TERM" in
@@ -120,7 +129,7 @@ master='/home/rcr/zope212/sandboxes/master/patchs/'
 
 # # PREALABLE
 # visudo
-     %sudo   ALL=NOPASSWD: ALL
+#     %sudo   ALL=NOPASSWD: ALL
 # adduser rcr sudo
 # apt-get update
 
