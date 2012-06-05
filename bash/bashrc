@@ -57,7 +57,7 @@ alias ll='ls -lh'
 alias runepicurom='~/bin/google_appengine/dev_appserver.py ~/sandboxes/epicurom/'
 alias epicurom='cd ~/sandboxes/epicurom'
 alias vis='vi -S ~/.vim/session.vim'
-alias pthon_server="python -m SimpleHTTPServer 9900"
+alias run_python_server="python -m SimpleHTTPServer 9900"
 
 # PROVEXI
 alias pvxcore='cd ~/zope212/sandboxes/PvxCoreApplication/'
