@@ -36,7 +36,6 @@ filetype on                      " Detection to determine the type of the curren
 filetype plugin on               " For plugin Pyflakes
 filetype plugin indent on        " For plugin Pyflakes
 au BufRead *.stl so  $VIMRUNTIME/syntax/html.vim  " Coloration des fichiers STL
-let g:pydiction_location = '~/.vim/ftplugin/pydiction-1.2/complete-dict'
 let mapleader = ','
 let g:pyflakes_use_quickfix = 0
 
@@ -45,7 +44,7 @@ let g:pyflakes_use_quickfix = 0
 "                                            PLUGINS VUNDLE                                 "
 " =========================================================================================== "
 
-set rtp+=~/.vim/bundle/vundle/
+set rtp+=/etc/vim/vundle/
 call vundle#rc()
 
 " ===== Dépots github officiel de vim (https://github.com/vim-scripts/)
@@ -319,8 +318,9 @@ endfunction
 " =============================================================================================== "
 
 " ==> Installation vim + modules
-" sudo apt-get install git-core vim-gnome exuberant-ctags python-sphinx
-" mkdir -p ~/.vim/bundle/vundle; cd ~/.vim; git clone http://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
-" cd ~/.vim/bundle/vundle; git submodule init; git submodule update
+" su
+" apt-get install git-core vim-gnome exuberant-ctags python-sphinx
+" git clone http://github.com/gmarik/vundle.git /etc/vim/vundle
+" cd /etc/vim/vundle; git submodule init; git submodule update
 " vi
 " :BundleInstall!
