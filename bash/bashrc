@@ -69,12 +69,14 @@ alias sithaque='ssh ithaque'
 alias sorient='ssh orient'
 alias samance='ssh amance'
 alias stemple='ssh temple'
+alias slangres='ssh langres'
+alias schaource='ssh chaource'
 alias del_pyc='find ~/zope212/sandboxes/PvxCoreApplication -name "*.pyc" -exec rm {}  \;'
 alias del_swp='find ~/zope212/sandboxes/PvxCoreApplication -name "*.swp" -exec rm {}  \;'
 alias apply_master='cd  ~/zope212/sandboxes/master/PvxCoreApplication; git am -3  ~/zope212/sandboxes/master/patchs/*'
 alias apply_next='cd  ~/zope212/sandboxes/next/PvxCoreApplication; git am -3  ~/zope212/sandboxes/next/patchs/*'
 alias push_master='git push origin master; clean_master'
-alias push_next='git push origin next; clean_next; maj_wiki_temple;'
+alias push_next='git push origin next; clean_next'
 alias clean_master='mv ~/zope212/sandboxes/master/patchs/* ~/zope212/sandboxes/master/applied_patchs'
 alias clean_next='mv ~/zope212/sandboxes/next/patchs/* ~/zope212/sandboxes/next/applied_patchs'
 alias ll_master='ll ~/zope212/sandboxes/master/patch'
@@ -140,20 +142,11 @@ TXTYLW='\[\e[0;33m\]' # Yellow
 TXTBLU='\[\e[0;34m\]' # Purple
 TXTPUR='\[\e[0;35m\]' # Purple
 TXTCYN='\[\e[0;36m\]' # Cyan
+BGRST='\[\033[00m\]' # Background reset
+BGGRE='\[\033[01;30;47m\]'
+BGGRERED='\[\033[01;31m\]'
+BGGREBOLD='\[\033[01;39m\]'
 
-#PS1="┌─( $TXTGRN\u$TXTRST ) - ( $TXTPUR$K$TXTRST ) - ( $TXTCYN\w$TXTRST )\n└─> "
-PS1="┌──[\t]─────[\u@\h]─────[\w]────┐\n "
+PS1="$BGGRE[\t]\u@$BGGREBOLD\h$BGGRE:\w#$BGRST "
 
-# For desktop
-if [[ ${EUID} == 0 ]] ; then
-    PS1='\[\033[01;30;47m\]┌──[\t]─────[\033[01;31m\u\[\033[00m\]\033[01;30;47m@\h]─────[\w]──┐\n└─>#\[\033[00m\] '
-else
-    PS1='\[\033[01;30;47m\]┌──[\t]─────[\u@\h]─────[\w]──┐\n└─>$\[\033[00m\] '
-fi
 
-## For servers
-#if [[ ${EUID} == 0 ]] ; then
-#    PS1='\[\033[01;30;47m\]┌──[\t]─────[\033[01;31m\u\[\033[00m\]\033[01;30;47m@\033[01;31m\h\[\033[00m\]\033[01;30;47m]─────[\w]──┐\n└─>#\[\033[00m\] '
-#else
-#    PS1='\[\033[01;30;47m\]┌──[\t]─────[\u@\033[01;31m\h\[\033[00m\]\033[01;30;47m]─────[\w]──┐\n└─>$\[\033[00m\] '
-#fi
