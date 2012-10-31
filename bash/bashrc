@@ -147,6 +147,8 @@ BGGRE='\[\033[01;30;47m\]'
 BGGRERED='\[\033[01;31m\]'
 BGGREBOLD='\[\033[01;39m\]'
 
-PS1="$BGGRE[\t]\u@$BGGREBOLD\h$BGGRE:\w#$BGRST "
-
-
+if [[ ${EUID} == 0 ]] ; then
+     PS1="$BGGRE[\t]\u@$BGGREBOLD\h$BGGRE:\w$BGGRERED#$BGRST "
+else
+     PS1="$BGGRE[\t]\u@$BGGREBOLD\h$BGGRE:\w#$BGRST "
+fi
