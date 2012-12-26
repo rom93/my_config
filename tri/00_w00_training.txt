@@ -1,32 +1,36 @@
-                ENTRAINEMENT Sem. 13 / 2012
+                ENTRAINEMENT Sem. 52 / 2012
 ===========================================================
-CYCLE :
+CYCLE : Foncier
 INTENSITE :
-NAT 2h | CAP 2h | VEL 3h | TOTAL 7h
+NAT h | CAP h | VEL h | TOTAL h
 
                         LUNDI
 ----------------------------------------------------------
-NAT : Séance fiche
+REP Noel
 
                         MARDI
 ----------------------------------------------------------
-VEL : 1H temps de soutien int 2
-=> Echauffement int 1
-=> 30' en continu INT 2 milieu de zone
-=> 10' int 3 basse
-Tu peux prendre des repères pour voir la progression
-au fil des séances
-=> Récup tres souple int 1 vélocité
+VEL : 55'
+=> 3*[30" 105rpm, 30" 115rpm, 30" 95rpm]
+PPG : 10'
+=> abdogain
 
                         MERCREDI
 ----------------------------------------------------------
-NAT : Séance fiche
+NAT : Séance 2200m
+
+200m échauffement (br, dos, dos 2bras, cr)
+500m cr (25m cr vite – 25m récup)
+100m récup (brasse, dos)
+200m éduc (100m 1br, 50m wp, 25m poing fermé, 25m ratrapé)
+500m PPl
+200m récup (brasse, dos 2 br, dos, cr souple)
+400m cr
+100m récup (brasse, cr souple)
 
                         JEUDI
 ----------------------------------------------------------
-CAP  : 10 min échauffement
-8x300 m  récup 30 secondes
-15 min récup
+CAP : aqua-jogging
 
                         VENDREDI
 ----------------------------------------------------------
@@ -34,9 +38,6 @@ REP
 
                         SAMEDI
 ----------------------------------------------------------
-VEL : 1h en int 1  vélocité
 
                         DIMANCHE
 ----------------------------------------------------------
-CAP : 10 km la rivière de corps
-VEL : après la course 1h en int 1 récup
