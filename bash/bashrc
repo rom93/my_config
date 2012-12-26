@@ -147,8 +147,18 @@ BGGRE='\[\033[01;30;47m\]'
 BGGRERED='\[\033[01;31m\]'
 BGGREBOLD='\[\033[01;39m\]'
 
-if [[ ${EUID} == 0 ]] ; then
-     PS1="$BGGRE[\t]\u@$BGGREBOLD\h$BGGRE:\w$BGGRERED#$BGRST "
-else
-     PS1="$BGGRE[\t]\u@$BGGREBOLD\h$BGGRE:\w#$BGRST "
-fi
+PS1="$BGGRE[\t]\u@$BGGREBOLD\h$BGGRE:\w$BGGREBOLD\$$BGRST "
+
+
+
+export PVX_PATH=~/zope212
+export PVX_PYTHON=$PVX_PATH/bin/python
+export PVX_PYTHON_LIB=$PVX_PATH/lib/python2.7
+export PVX_ZOPE_PKG=Zope2-2.13.15
+export PVX_ITOOLS_PKG=itools-0.50.5
+export PVX_DOWNLOAD=$PVX_PATH/download
+export PVX_ZEO_INSTANCE=$PVX_PATH/zeo-server
+export PVX_ZOPE_INSTANCE=$PVX_PATH/zeo-client0
+export PVX_SANDBOX=$PVX_PATH/sandboxes/
+export PVX_ZEO_PORT=8100
+
