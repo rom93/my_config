@@ -1,50 +1,50 @@
-                ENTRAINEMENT Sem. 1 / 2013
+                ENTRAINEMENT Sem. 52 / 2013
 ===========================================================
 CYCLE : Foncier
 INTENSITE :
-NAT h | CAP h | VEL h | TOTAL h
+NAT 1h | CAP 0h | VEL 5h | TOTAL 6h
 
                         LUNDI
 ----------------------------------------------------------
-CAP : 40' INT1 (reprise suite à entorse)
-
+VEL : 55' HT
 
                         MARDI
 ----------------------------------------------------------
-VEL : 1' HT
-=> Echauffement
-=> 15*[1' cran4, r=1']
-=> Les 6 sprints de fin de séance
+VEL : 55' HT
+=> 3*[30" 105rpm, 30" 115rpm, 30" 95rpm]
+PPG : 10'
+=> abdogain
 
                         MERCREDI
 ----------------------------------------------------------
-NAT : Séance 2500m
-400 échauffement
-6*100 technique
-=> Pyramide [300, 400, 500, 400, 300] r=30" avec variation de rythme
-=> 500m récup pull
-=> 4*25m travail de vitesse (r=total)
+NAT : Séance 2200m
+
+200m échauffement (br, dos, dos 2bras, cr)
+500m cr (25m cr vite – 25m récup)
+100m récup (brasse, dos)
+200m éduc (100m 1br, 50m wp, 25m poing fermé, 25m ratrapé)
+500m PPl
+200m récup (brasse, dos 2 br, dos, cr souple)
+400m cr
+100m récup (brasse, cr souple)
 
                         JEUDI
 ----------------------------------------------------------
-CAP : 45' INT1
+REP
 
                         VENDREDI
 ----------------------------------------------------------
-VEL : 1h HT
-=> Echauffement 20'
-=> 15*[30' 90rmp, 30' 100rpm, 30' 110rmp]
-=> Fin de séance en endurance 20'
-
+VEL : 1h12 HT vélocité
+=> 20'ech, 8*[1'30 90rpm, 1' 100rpm, 30" 110rpm, 1'R], 20' endurance
+PPG : 10'
+=> abdogain
                         SAMEDI
 ----------------------------------------------------------
-VEL : 1h HT
-=> Echauffement 20'
-=> 6*[2' cran1, 1' cran2, 30" cran3, r=1']
-=> 5' endurance, 6 sprints fin de séance, 5' endurance
-
-CAP : 50' INT1 dont 2*[5' INT2, r=2'30]
+VEL : 1h12 HT résitance
+=> HT 20'ech, 4*[3' cran1, 1'R], 5' endurance, 6sprints fin de séance
+PPG : 10'
+=> abdogain
 
                         DIMANCHE
 ----------------------------------------------------------
-
+1h VTT vélocité
