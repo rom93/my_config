@@ -1,50 +1,81 @@
-                ENTRAINEMENT Sem. 1 / 2013
+                ENTRAINEMENT Sem. 2 / 2013
 ===========================================================
 CYCLE : Foncier
 INTENSITE :
-NAT h | CAP h | VEL h | TOTAL h
+NAT 2h | CAP 2h | VEL h | TOTAL h
 
                         LUNDI
 ----------------------------------------------------------
-CAP : 40' INT1 (reprise suite à entorse)
-
+NAT : 1h 2100m (Dominante bras crawl)
+200 MAO
+300 Cr / Dos / Brasse / Cr par 25
+200 Bras brasse - Jb papillon (L glisse)
+100 Dos amplitude (gonfler poitrine, fixez tête)
+400 Cr PPB Resp. 2 tps (200m lent puis rapide)
+400 2 X 100 PLPB Cr       R=40"
+    100 dos Pl
+    100 cr Pl
+300 2 nages     (gonfler poumons, fixer corps)
+4 x 25 Jb Cr   R=30" (pointes pieds vers inter. cr,
+100 souple                               ext. brasse)
 
                         MARDI
 ----------------------------------------------------------
-VEL : 1' HT
-=> Echauffement
-=> 15*[1' cran4, r=1']
-=> Les 6 sprints de fin de séance
+CAP  : Montée escalier et Vma
+Travail de force + INT 3
+=> 10' INT 1 souple
+=> 2' Montées escaliers bien placé techniquement
+Enchainé avec un 400 m vite
+Faire cette série 6 fois (R = 3' marche)
+=> Récup souple
+Escalier
+
+
 
                         MERCREDI
 ----------------------------------------------------------
-NAT : Séance 2500m
-400 échauffement
-6*100 technique
-=> Pyramide [300, 400, 500, 400, 300] r=30" avec variation de rythme
-=> 500m récup pull
-=> 4*25m travail de vitesse (r=total)
+NAT : 1h 2100m (Dominante endurance 2 nages)
+200 MAO
+200 Dos / Br par 25     (en Br tps d'arrêt pour glisse)
+200 Bras Br
+100 Educatif Cr (3 x 1bras) Resp. 3 tps (ampl. et appui)
+100 Cr - Resp. 5 tps
+400 4 x [75 Cr - 25 Br] R=20"   (même temps)
+100 Dos souple
+400 4 X [50 Cr, 50 Dos] R=20"   (même temps)
+300 Jb cr   (allonger au max et gonfler corps)
+100 Souple
+
 
                         JEUDI
 ----------------------------------------------------------
-CAP : 45' INT1
+VEL HT Force / Cap / Muscul sans charge
+VEL : HT 5' en int 1 en vélocité
+MUS : Travail en isométrie quadris et fessiers
+3 x chaise (quand cuisses brulent continuer 10") (r=30")
+VEL : HT 10' en force, termine en int 2 basse.
+MUS : Ex. de la chaise IDEM
+CAP : 20' INT 2 basse avec côtes
+MUS : Ex. de la chaise IDEM
+VEL : HT 20'
+first 5' INT 2 force puis INT 1 vélocité
+
 
                         VENDREDI
 ----------------------------------------------------------
-VEL : 1h HT
-=> Echauffement 20'
-=> 15*[30' 90rmp, 30' 100rpm, 30' 110rmp]
-=> Fin de séance en endurance 20'
+NAT
+
+VEL : 1h HT vélocité
+Echauffement
+8 x [1'30 90 rmp, 1' 100 rmp, 30" 110, 1mn de récup]
+Fin de séance en endurance
 
                         SAMEDI
 ----------------------------------------------------------
-VEL : 1h HT
-=> Echauffement 20'
-=> 6*[2' cran1, 1' cran2, 30" cran3, r=1']
-=> 5' endurance, 6 sprints fin de séance, 5' endurance
+REP
 
-CAP : 50' INT1 dont 2*[5' INT2, r=2'30]
 
                         DIMANCHE
 ----------------------------------------------------------
-
+VEL : 1h VTT vélocité dont 6 montées en danseuse
+CAP : 1h INT1 dont 3 x [4' INT2, r=2']
