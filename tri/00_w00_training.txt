@@ -1,8 +1,8 @@
                 ENTRAINEMENT Sem. 2 / 2013
 ===========================================================
 CYCLE : Foncier
-INTENSITE :
-NAT 2h | CAP 2h | VEL h | TOTAL h
+INTENSITE : Foncier
+NAT 2h | CAP 3h | VEL 3h | TOTAL 8h
 
                         LUNDI
 ----------------------------------------------------------
@@ -21,7 +21,7 @@ NAT : 1h 2100m (Dominante bras crawl)
 
                         MARDI
 ----------------------------------------------------------
-CAP  : Montée escalier et Vma
+CAP  : 1h Montée escalier et Vma
 Travail de force + INT 3
 => 10' INT 1 souple
 => 2' Montées escaliers bien placé techniquement
@@ -49,30 +49,30 @@ NAT : 1h 2100m (Dominante endurance 2 nages)
 
                         JEUDI
 ----------------------------------------------------------
-VEL HT Force / Cap / Muscul sans charge
-VEL : HT 5' en int 1 en vélocité
-MUS : Travail en isométrie quadris et fessiers
-3 x chaise (quand cuisses brulent continuer 10") (r=30")
-VEL : HT 10' en force, termine en int 2 basse.
-MUS : Ex. de la chaise IDEM
-CAP : 20' INT 2 basse avec côtes
-MUS : Ex. de la chaise IDEM
-VEL : HT 20'
-first 5' INT 2 force puis INT 1 vélocité
+CAP : 50' INT1
+Fin de séance : 5 x [1' INT2, r=30"]
 
+HT : 1h (mixte)
+10' échauffement
+10' : 30" un pied, 30" l’autre pied, 30" les deux
+2' récup
+20' : 4 x [2' cran1, 1' cran2, 30" cran3, r=1'30]
+2' récup
+8' : 1' cran4 à 90rmp, r=1'
+2' récup
+6 sprints de fin de séance
 
                         VENDREDI
 ----------------------------------------------------------
-NAT
+REP
 
+
+                        SAMEDI
+----------------------------------------------------------
 VEL : 1h HT vélocité
 Echauffement
 8 x [1'30 90 rmp, 1' 100 rmp, 30" 110, 1mn de récup]
 Fin de séance en endurance
-
-                        SAMEDI
-----------------------------------------------------------
-REP
 
 
                         DIMANCHE
