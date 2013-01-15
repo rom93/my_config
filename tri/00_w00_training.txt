@@ -1,38 +1,10 @@
-                ENTRAINEMENT Sem. 2 / 2013
+                ENTRAINEMENT Sem. 3 / 2013
 ===========================================================
 CYCLE : Foncier
 INTENSITE : Foncier
-NAT 2h | CAP 3h | VEL 3h | TOTAL 8h
+NAT 2h | CAP 3h | VEL 2h30 | TOTAL 7h30
 
                         LUNDI
-----------------------------------------------------------
-NAT : 1h 2100m (Dominante bras crawl)
-200 MAO
-300 Cr / Dos / Brasse / Cr par 25
-200 Bras brasse - Jb papillon (L glisse)
-100 Dos amplitude (gonfler poitrine, fixez tête)
-400 Cr PPB Resp. 2 tps (200m lent puis rapide)
-400 2 X 100 PLPB Cr       R=40"
-    100 dos Pl
-    100 cr Pl
-300 2 nages     (gonfler poumons, fixer corps)
-4 x 25 Jb Cr   R=30" (pointes pieds vers inter. cr,
-100 souple                               ext. brasse)
-
-                        MARDI
-----------------------------------------------------------
-CAP  : 1h Montée escalier et Vma
-Travail de force + INT 3
-=> 10' INT 1 souple
-=> 2' Montées escaliers bien placé techniquement
-Enchainé avec un 400 m vite
-Faire cette série 6 fois (R = 3' marche)
-=> Récup souple
-Escalier
-
-
-
-                        MERCREDI
 ----------------------------------------------------------
 NAT : 1h 2100m (Dominante endurance 2 nages)
 200 MAO
@@ -46,36 +18,27 @@ NAT : 1h 2100m (Dominante endurance 2 nages)
 300 Jb cr   (allonger au max et gonfler corps)
 100 Souple
 
+                        MARDI
+----------------------------------------------------------
+CAP  : 40' escalier
+5 x montée de genoux
+5 x talons fesses
+5 x 2' montée escaliers
+7 x montée escaliers pieds joints
+
+                        MERCREDI
+----------------------------------------------------------
+
 
                         JEUDI
 ----------------------------------------------------------
-CAP : 50' INT1
-Fin de séance : 5 x [1' INT2, r=30"]
-
-HT : 1h (mixte)
-10' échauffement
-10' : 30" un pied, 30" l’autre pied, 30" les deux
-2' récup
-20' : 4 x [2' cran1, 1' cran2, 30" cran3, r=1'30]
-2' récup
-8' : 1' cran4 à 90rmp, r=1'
-2' récup
-6 sprints de fin de séance
 
                         VENDREDI
 ----------------------------------------------------------
-REP
-
 
                         SAMEDI
 ----------------------------------------------------------
-VEL : 1h HT vélocité
-Echauffement
-8 x [1'30 90 rmp, 1' 100 rmp, 30" 110, 1mn de récup]
-Fin de séance en endurance
-
 
                         DIMANCHE
 ----------------------------------------------------------
-VEL : 1h VTT vélocité dont 6 montées en danseuse
-CAP : 1h INT1 dont 3 x [4' INT2, r=2']
+
