@@ -11,7 +11,7 @@ CAP : 40' INT1 (reprise suite à entorse)
 
                         MARDI
 ----------------------------------------------------------
-VEL : 1' HT Renforcement
+VEL : 1h HT Renforcement
 => Echauffement
 => 15*[1' cran4, r=1']
 => Les 6 sprints de fin de séance
