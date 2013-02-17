@@ -26,7 +26,7 @@ shades_margin 1
 # Size and position
 alignment top_right
 gap_x 27
-gap_y 55
+gap_y 25
 
 lua_load ~/my_config/scripts/draw_bg.lua
 lua_draw_hook_pre draw_bg
@@ -34,5 +34,5 @@ text_buffer_size 2048
 
 TEXT
 
-${exec cat ~/my_config/tri/00_w00_training.txt}
+${exec cat  ~/Dropbox/Tri/Training/Year/2013/13_w00_training.txt}
 #${execpi 1800 conkyForecast --location=FRXX0101 --template=~/my_config/conky/conkyForecast.fontbasedtemplate.template --datatype=PC --startday=0 –locale=fr}
