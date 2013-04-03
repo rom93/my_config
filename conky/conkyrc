@@ -34,5 +34,5 @@ text_buffer_size 2048
 
 TEXT
 
-${exec cat  ~/Dropbox/Tri/Training/Year/2013/13_w00_training.txt}
+${exec cat ~/Dropbox/tri/training/year/2013/13_w00_training.txt}
 #${execpi 1800 conkyForecast --location=FRXX0101 --template=~/my_config/conky/conkyForecast.fontbasedtemplate.template --datatype=PC --startday=0 –locale=fr}
