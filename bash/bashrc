@@ -2,7 +2,7 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-export PYTHONPATH=/home/rcr/zope212/bin/python
+export PYTHONPATH=~/zope212/bin/python
 
 # If not running interactively, don't do anything
 [ -z "$PS1" ] && return
@@ -66,8 +66,8 @@ alias pvxcore_next='cd ~/zope212/sandboxes/next/PvxCoreApplication'
 alias runzope='cd ~/zope212/zeo-client0; ./bin/runzope'
 alias pvxappcore='cd ~/gunicorn/sandboxes/PvxCoreApplication'
 alias rungunicorn='cd ~/gunicorn; source bin/activate; cd gunicorn-client0; gunicorn -t 0 -c etc/gunicorn.py Products/PvxCoreApplication/pvxapp:app'
-alias rungunicorn='cd /home/rcr/gunicorn; source bin/activate; cd $PVX_GUNICORN_INSTANCE/Products/PvxCoreApplication; gunicorn -t 0 -c $PVX_GUNICORN_INSTANCE/etc/gunicorn.py pvxapp:app'
-alias runpvxapp='cd /home/rcr/gunicorn; source bin/activate; cd gunicorn-client0/Products/PvxCoreApplication; python pvxapp.py /home/rcr/gunicorn/gunicorn-client0'
+alias rungunicorn='cd ~/gunicorn; source bin/activate; cd $PVX_GUNICORN_INSTANCE/Products/PvxCoreApplication; gunicorn -t 0 -c $PVX_GUNICORN_INSTANCE/etc/gunicorn.py pvxapp:app'
+alias runpvxapp='cd ~/gunicorn; source bin/activate; cd gunicorn-client0/Products/PvxCoreApplication; python pvxapp.py ~/gunicorn/gunicorn-client0'
 alias runzeo='cd ~/zope212/zeo-server; ./bin/zeoctl start'
 alias sithaque='ssh ithaque'
 alias sorient='ssh orient'
@@ -112,8 +112,8 @@ alias gick='git checkout'
 alias gidc='git diff --check'
 
 # VARIABLE
-next='/home/rcr/zope212/sandboxes/next/patchs/'
-master='/home/rcr/zope212/sandboxes/master/patchs/'
+next='~/zope212/sandboxes/next/patchs/'
+master='~/zope212/sandboxes/master/patchs/'
 
 # ==================================
 #       WORKSTATION SETUP
