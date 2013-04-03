@@ -50,18 +50,18 @@ fi
 #     VARIABLES D'ENVIRONNEMENT
 # ==================================
 export PYTHONPATH=~/zope212/bin/python
-#export PVX_PATH=~/zope212
-export PVX_PATH=~/gunicorn
-export PVX_PYTHON=$PVX_PATH/bin/python
-export PVX_PYTHON_LIB=$PVX_PATH/lib/python2.7
+export  *=~/gunicorn
+export PVX_PYTHON=$ */bin/python
 export PVX_ZOPE_PKG=Zope2-2.13.15
 export PVX_ITOOLS_PKG=itools-0.50.5
-export PVX_DOWNLOAD=$PVX_PATH/download
-export PVX_ZEO_INSTANCE=$PVX_PATH/zeo-server
-export PVX_ZOPE_INSTANCE=$PVX_PATH/zeo-client0
-export PVX_SANDBOX=$PVX_PATH/sandboxes/
+export PVX_DOWNLOAD=$ */download
+export PVX_ZEO_INSTANCE=$ */zeo-server
+export PVX_ZOPE_INSTANCE=$ */zeo-client0
+export PVX_SANDBOX=$ */sandboxes/
 export PVX_ZEO_PORT=8100
-export PVX_GUNICORN_INSTANCE=$PVX_PATH/gunicorn-client0
+export GUNICORN=~/gunicorn
+export GUNICORN_INSTANCE=$ */gunicorn-client0
+export PYTHON_LIB=$ */lib/python2.7
 
 # ==================================
 #     PROMPT
@@ -95,11 +95,10 @@ alias run_python_server="python -m SimpleHTTPServer 9900"
 alias pvxcore='cd ~/zope212/sandboxes/PvxCoreApplication/'
 alias pvxcore_master='cd ~/zope212/sandboxes/master/PvxCoreApplication'
 alias pvxcore_next='cd ~/zope212/sandboxes/next/PvxCoreApplication'
-alias runzope='cd ~/zope212/zeo-client0; ./bin/runzope'
 alias pvxappcore='cd ~/gunicorn/sandboxes/PvxCoreApplication'
-alias rungunicorn='cd ~/gunicorn; source bin/activate; cd gunicorn-client0; gunicorn -t 0 -c etc/gunicorn.py PvxCoreApplication/pvxapp:app'
-alias rungunicorn='cd ~/gunicorn; source bin/activate; cd $PVX_GUNICORN_INSTANCE/PvxCoreApplication; gunicorn -t 0 -c $PVX_GUNICORN_INSTANCE/etc/gunicorn.py pvxapp:app'
-alias runpvxapp='cd ~/gunicorn; source bin/activate; cd gunicorn-client0/PvxCoreApplication; python pvxapp.py ~/gunicorn/gunicorn-client0'
+alias runzope='cd ~/zope212/zeo-client0; ./bin/runzope'
+alias rungunicorn='cd $GUNICORN; source bin/activate; cd $PVX_GUNICORN_INSTANCE/PvxCoreApplication; gunicorn -t 0 -c $PVX_GUNICORN_INSTANCE/etc/gunicorn.py pvxapp:app'
+alias runpvxapp='cd ~/gunicorn; source bin/activate; cd $PVX_GUNICORN_INSTANCE/PvxCoreApplication; python pvxapp.py ~/gunicorn/gunicorn-client0'
 alias runzeo='cd ~/zope212/zeo-server; ./bin/zeoctl start'
 alias sithaque='ssh ithaque'
 alias sorient='ssh orient'
@@ -163,6 +162,6 @@ alias gidc='git diff --check'
 # git remote rm origin; git remote add origin git@github.com:rom93/my_config.git
 # # Add ssh key
 
-# # CONKY
+ # CONKY
 # cd ~/dowload; wget https://launchpad.net/~conky-companions/+archive/ppa/+files/conkyforecast_2.20_all.deb; sudo dpkg -i conkyforecast_2.20_all.deb; mkdir ~/tmp;
 # ln -s my_config/conky/conkyForecast.config .conkyForecast.config; ln -s my_config/conky/conkyrc .conkyrc;
