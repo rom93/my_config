@@ -67,7 +67,6 @@ PS1="$BGGRE[\t]\u@$BGGREBOLD\h$BGGRE:\w$BGGREBOLD\$$BGRST "
 #     VARIABLES D'ENVIRONNEMENT
 # ==================================
 export GUNICORN=~/gunicorn
-export PVX_INSTANCE=$GUNICORN/gunicorn-client0
 export PVX_LIB=$GUNICORN/lib/python2.7
 export PVX_PYTHON=$GUNICORN/bin/python
 export PVX_DOWNLOAD=~/download
@@ -81,8 +80,8 @@ alias pvxcore='cd ~/zope212/sandboxes/PvxCoreApplication/'
 alias runzope='cd ~/zope212/zeo-client0; ./bin/runzope'
 alias runzeo='cd ~/zope212/zeo-server; ./bin/zeoctl start'
 # NEW PLATEFORME
-alias runpvxapp='cd ~/gunicorn; source bin/activate; cd $PVX_INSTANCE/PvxCoreApplication; python pvxapp.py ~/gunicorn/gunicorn-client0'
-alias rungunicorn='cd $GUNICORN; source bin/activate; cd $PVX_INSTANCE/PvxCoreApplication; gunicorn -t 0 -c $PVX_INSTANCE/etc/gunicorn.py pvxapp:app'
+alias runpvxapp='cd ~/gunicorn; source bin/activate; cd $GUNICORN/PvxCoreApplication; python pvxapp.py ~/gunicorn/gunicorn-client0'
+alias rungunicorn='cd $GUNICORN; source bin/activate; cd $GUNICORN/PvxCoreApplication; gunicorn -t 0 -c $GUNICORN/etc/gunicorn.py pvxapp:app'
 alias pvxtree='cd $PVX_SANDBOXES; vi -c :Ex'
 alias pvxappcore='cd $PVX_SANDBOXES'
 # SSH
