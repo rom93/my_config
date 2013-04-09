@@ -18,9 +18,9 @@ alias pvxcore='cd ~/zope212/sandboxes/PvxCoreApplication/'
 alias runzope='cd ~/zope212/zeo-client0; ./bin/runzope'
 alias runzeo='cd ~/zope212/zeo-server; ./bin/zeoctl start'
 # NEW PLATEFORME
-alias runpvxapp='cd $GUNICORN; source bin/activate; cd $PVX_CORE; python pvxapp.py $GUNICORN'
-alias rungunicorn='cd $GUNICORN; source bin/activate; cd $PVX_CORE; gunicorn -t 0 -c $GUNICORN/etc/gunicorn.py pvxapp:app'
-alias pvxappcore='cd $PVX_CORE'
+alias runpvxapp='cd $GUNICORN; source bin/activate; cd $GUNICORN_CORE; python pvxapp.py $GUNICORN'
+alias rungunicorn='cd $GUNICORN; source bin/activate; cd $GUNICORN_CORE; gunicorn -t 0 -c $GUNICORN/etc/gunicorn.py pvxapp:app'
+alias pvxappcore='cd $GUNICORN_CORE'
 alias pvxtree='pvxappcore; vi -c :Ex'
 # SSH
 alias sithaque='ssh ithaque'
@@ -28,8 +28,8 @@ alias samance='ssh amance'
 alias slangres='ssh langres'
 alias schaource='ssh chaource'
 # DEV
-alias del_pyc='find $PVX_CORE -name "*.pyc" -exec rm {}  \;'
-alias del_swp='find $PVX_CORE -name "*.swp" -exec rm {}  \;'
+alias del_pyc='find $GUNICORN_CORE -name "*.pyc" -exec rm {}  \;'
+alias del_swp='find $GUNICORN_CORE -name "*.swp" -exec rm {}  \;'
 # GIT
 alias pvxcore_master='cd ~/zope212/sandboxes/master/PvxCoreApplication'
 alias pvxcore_next='cd ~/zope212/sandboxes/next/PvxCoreApplication'
