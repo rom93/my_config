@@ -4,7 +4,7 @@
 export GUNICORN=~/gunicorn
 export GUNICORN_PYTHON=$GUNICORN/bin/python
 export GUNICORN_CORE=$GUNICORN/sandboxes/PvxCoreApplication/
-export GUNICORN_LIB=$GUNICORN/lib/python2.7
+export GUNICORN_LIB_PACKAGE=$GUNICORN/lib/python2.7/site-packages
 export GUNICORN_PYTHON=$GUNICORN/bin/python
 export DOWNLOAD=~/download
 export OLD_PVX_PATH=~/zope212
