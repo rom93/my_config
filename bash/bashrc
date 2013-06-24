@@ -52,18 +52,3 @@ for script in /etc/profile.d/*.sh ; do
         fi
 done
 
-# ==================================
-#              PVXAPP
-# ==================================
-export PVXAPP=~/pvxapp
-export PVXAPP_PYTHON=$PVXAPP/bin/python
-export PVXAPP_CORE=$PVXAPP/sandboxes/PvxCoreApplication
-export PVXAPP_LIB=$PVXAPP/lib/python2.7
-export PVXAPP_DOWNLOAD=$PVXAPP/download
-export ITOOLS_PKG=itools-0.50.5
-alias runpvxapp='cd $PVXAPP; source bin/activate; cd $PVXAPP_CORE; python pvxapp.py $PVXAPP'
-alias pvxappcore='cd $PVXAPP_CORE'
-alias rungunicorn='cd $PVXAPP; source bin/activate; cd $PVXAPP_CORE; gunicorn -t 0 -c $GUNICORN/etc/gunicorn.py pvxapp:app'
-alias pvxtree='pvxappcore; vi -c :Ex'
-alias delpyc_pvxapp='find $PVXAPP_CORE -name "*.pyc" -exec rm {}  \;'
-alias delswp_pvxapp='find $PVXAPP_CORE -name "*.swp" -exec rm {}  \;'
