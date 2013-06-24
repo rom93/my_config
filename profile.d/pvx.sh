@@ -29,7 +29,7 @@ alias maj_wiki="source ~/zope212/bin/activate; pvxcore; cd doc; make clean; make
 # ==================================
 export PVXAPP=~/pvxapp
 export PVXAPP_PYTHON=$PVXAPP/bin/python
-export PVXAPP_CORE=$PVXAPP/sandboxes/PvxCoreApplication
+export PVXAPP_CORE=$PVXAPP/pvxcore
 export PVXAPP_LIB=$PVXAPP/lib/python2.7
 export PVXAPP_DOWNLOAD=$PVXAPP/download
 export ITOOLS_PKG=itools-0.50.5
