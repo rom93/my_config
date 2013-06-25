@@ -34,6 +34,7 @@ export PVXAPP_LIB=$PVXAPP/lib/python2.7
 export PVXAPP_DOWNLOAD=$PVXAPP/download
 export ITOOLS_PKG=itools-0.50.5
 alias runpvxapp='cd $PVXAPP; source bin/activate; cd $PVXAPP_CORE; python pvxapp.py $PVXAPP'
+alias pvxapp='cd $PVXAPP'
 alias pvxappcore='cd $PVXAPP_CORE'
 alias rungunicorn='cd $PVXAPP; source bin/activate; cd $PVXAPP_CORE; gunicorn -t 0 -c $GUNICORN/etc/gunicorn.py pvxapp:app'
 alias pvxtree='pvxappcore; vi -c :Ex'
