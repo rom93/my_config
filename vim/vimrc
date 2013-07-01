@@ -113,7 +113,7 @@ command!   SaveSession  silent :mksession! ~/.session.vim | :wqa
 " Affiche les couleurs en fonction de la syntaxe
 command!   Color    :source $VIMRUNTIME/syntax/hitest.vim
 " MAJ du wiki provexi en local
-command!   MajWiki  :!cd ~/zope212/sandboxes/PvxCoreApplication/doc;make html
+command!   MajWiki  :!cd ~/pvxapp/pvxcore/doc;make html
 " GitGrep dans un nouvel onglet
 command! Filepath :!echo %:p
 command!   -nargs=*                                       GG  call GG(<q-args>)
