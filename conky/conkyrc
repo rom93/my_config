@@ -24,9 +24,9 @@ draw_shades 0
 shades_margin 1
 
 # Size and position
-alignment top_right
-gap_x 27
-gap_y 25
+alignment middle_right
+gap_x 20
+#gap_y 90
 
 lua_load ~/my_config/scripts/draw_bg.lua
 lua_draw_hook_pre draw_bg
