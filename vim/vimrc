@@ -51,7 +51,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 Bundle 'The-NERD-tree'
 Bundle 'taglist.vim'
-Bundle 'pep8'
+"Bundle 'pep8'
 "Bundle 'RST-Tables'
 "Bundle 'RST-Tables-works-with-non-english-langu'
 " ===== Dépots github (https://github.com)
@@ -59,6 +59,11 @@ Bundle 'kevinw/pyflakes-vim'
 Bundle 'motemen/git-vim'
 Bundle 'tjennings/git-grep-vim'
 " ===== Autres dépots Git
+
+" Modification des couleurs pyflakes
+if has("gui_running")
+    highlight SpellBad term=underline gui=undercurl guisp=Orange
+endif
 
 
 " =============================================================================================== "
