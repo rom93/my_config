@@ -58,6 +58,8 @@ Bundle 'taglist.vim'
 Bundle 'kevinw/pyflakes-vim'
 Bundle 'motemen/git-vim'
 Bundle 'tjennings/git-grep-vim'
+Bundle 'godlygeek/tabular'
+Bundle 'dhruvasagar/vim-table-mode'
 " ===== Autres dépots Git
 
 " Modification des couleurs pyflakes
