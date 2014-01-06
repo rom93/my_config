@@ -25,17 +25,15 @@ alias tail_ith_select="sithaque 'sudo tail -f -n 200 /usr/local/pgsql/data/pg_lo
 alias maj_wiki_temple="ssh pvx@temple 'bash -c \"cd wiki.provexi.fr/PvxCoreApplication && git fetch origin && git rebase origin/next && cd doc; make html;\"'"
 
 # GIT
-export NEXT='~/git/next'
-export MASTER='~/git/master'
-alias pvxcore_master='cd $MASTER/pvxcore'
-alias pvxcore_next='cd $NEXT/pvxcore'
-alias apply_master='pvxcore_master; git am -3  ~/git/master/patch/*'
-alias apply_next='pvxcore_next; git am -3  ~/git/next/patch/*'
-alias clean_master='mv $MASTER/patchs/* $MASTER/applied'
-alias clean_next='mv $NEXT/patchs/* $NEXT/applied'
-alias push_master='pvxcore_master; git push origin master; clean_master'
-alias push_next='pvxcore_next; git push origin next; clean_next'
-alias ll_master='ll ~/zope212/sandboxes/master/patch'
-alias ll_next='ll ~/zope212/sandboxes/next/patch'
+NEXT='~/git/next'
+MASTER='~/git/master'
+alias pvxcore_master="cd $MASTER/pvxcore"
+alias pvxcore_next="cd $NEXT/pvxcore"
+alias apply_master="pvxcore_master; git am -3  ~/git/master/patch/*"
+alias apply_next="pvxcore_next; git am -3  ~/git/next/patch/*"
+alias clean_master="mv $MASTER/patch/* $MASTER/applied"
+alias clean_next="mv $NEXT/patch/* $NEXT/applied"
+alias push_master="pvxcore_master; git push origin master; clean_master"
+alias push_next="pvxcore_next; git push origin next; clean_next"
 alias maj_wiki="source ~/zope212/bin/activate; pvxcore; cd doc; make clean; make html"
 

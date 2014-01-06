@@ -8,12 +8,16 @@ TXTYLW='\[\e[0;33m\]' # Yellow
 TXTBLU='\[\e[0;34m\]' # Purple
 TXTPUR='\[\e[0;35m\]' # Purple
 TXTCYN='\[\e[0;36m\]' # Cyan
-BGRST='\[\033[00m\]' # Background reset
+BGRST='\[\033[00m\]'  # Background reset
 BGGRE='\[\033[01;30;47m\]'
 BGGRERED='\[\033[01;31m\]'
 BGGREBOLD='\[\033[01;39m\]'
 
-PS1="$BGGRE[\t]\u@$BGGREBOLD\h$BGGRE:\w$BGGREBOLD\$$BGRST "
+if [[ ${EUID} == 0 ]] ; then
+     PS1="$BGGRE[\t]\u@$BGGREBOLD\h$BGGRE:\w$BGGRERED#$BGRST "
+else
+     PS1="$BGGRE[\t]\u@$BGGREBOLD\h$BGGRE:\w#$BGRST "
+fi
 
 
 # ==================================
