@@ -25,15 +25,18 @@ alias tail_ith_select="sithaque 'sudo tail -f -n 200 /usr/local/pgsql/data/pg_lo
 alias maj_wiki_temple="ssh pvx@temple 'bash -c \"cd wiki.provexi.fr/PvxCoreApplication && git fetch origin && git rebase origin/next && cd doc; make html;\"'"
 
 # GIT
-NEXT='~/git/next'
-MASTER='~/git/master'
-alias pvxcore_master="cd $MASTER/pvxcore"
-alias pvxcore_next="cd $NEXT/pvxcore"
-alias apply_master="pvxcore_master; git am -3  ~/git/master/patch/*"
-alias apply_next="pvxcore_next; git am -3  ~/git/next/patch/*"
-alias clean_master="mv $MASTER/patch/* $MASTER/applied"
-alias clean_next="mv $NEXT/patch/* $NEXT/applied"
-alias push_master="pvxcore_master; git push origin master; clean_master"
-alias push_next="pvxcore_next; git push origin next; clean_next"
-alias maj_wiki="source ~/zope212/bin/activate; pvxcore; cd doc; make clean; make html"
+# PC d'application des patchs
+alias mount_git_master="sshfs -p 1234 provexi@langres.provexi.fr:/home/git-master ~/git/git-master"
+alias mount_git_next="sshfs -p 1234 provexi@langres.provexi.fr:/home/git-next ~/git/git-next"
+# Serveur GIT
+alias pvxcore_master='cd /home/git-master/pvxcore'
+alias pvxcore_next='cd /home/git-next/pvxcore'
+alias clean_master='mv /home/git-master/patchs/new/* /home/git-master/patchs/applied/'
+alias clean_next='mv /home/git-next/patchs/new/* /home/git-next/patchs/applied/'
+alias apply_master='pvxcore_master; git am -3  /home/git-master/patchs/new/*'
+alias apply_next='pvxcore_next; git am -3  /home/git-next/patchs/new/*'
+alias push_master='pvxcore_master && git push origin master; clean_master'
+alias push_next='pvxcore_next && git push origin next; clean_next'
+
+
 
