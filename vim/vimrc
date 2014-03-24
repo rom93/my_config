@@ -60,6 +60,7 @@ Bundle 'motemen/git-vim'
 Bundle 'tjennings/git-grep-vim'
 Bundle 'godlygeek/tabular'
 Bundle 'dhruvasagar/vim-table-mode'
+Bundle 'majutsushi/tagbar'
 " ===== Autres dépots Git
 
 " Modification des couleurs pyflakes
@@ -82,13 +83,13 @@ map        <F3>  :python python_uncomment()<CR>
 " Supprime les trailing whitespace
 map        <F7> :%s/  *$//<CR>:echo '!!! Trailing whitespace cleaned !!!'<CR>
 " Affiche navigateur du fichier
-noremap    <silent> <F8> :TlistToggle<CR>
+noremap    <silent> <F8> :TagbarToggle<CR>
 "          <F9> Free
 " Recharge les onglets
 map        <F9> :tabdo :e!<CR>:echo '!!! Tabs reloded !!!'<CR>
 "          <F11> Agrandi la fenêtre
 " Recharge configuration vim
-map        <F12> :source ~/.vimrc<CR>:echo '!!! Config reloaded !!!'<CR>
+map        <F12> :source /etc/vim/vimrc.local<CR>:echo '!!! Config reloaded !!!'<CR>
 " Déplace l'écran d'une ligne vers le haut
 map        <C-K> <C-E>
 " Déplace l'écran d'une ligne vers le bas
