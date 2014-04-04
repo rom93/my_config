@@ -10,7 +10,7 @@ alias mytr="vi $THIS_WEEK"
 alias mytrdir="cd $TR_DIR"
 alias mynewtr="newtr_func "
 
-function newtr_func {
+newtr_func() {
     if [ -n "$1" ]
     then
         trdir
@@ -19,6 +19,12 @@ function newtr_func {
     else
         echo Usage: newtr week-1_name
     fi
+    exit 1
 }
 
+alias mytest="test_func "
+
+test_func() {
+    echo $1
+}
 
