@@ -17,6 +17,7 @@ own_window yes
 own_window_type override
 own_window_transparent yes
 own_window_hints undecorated,below,sticky,skip_taskbar,skip_pager
+background yes
 
 # Window border
 draw_borders 0
