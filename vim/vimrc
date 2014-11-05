@@ -333,7 +333,7 @@ endfunction
 " ##########################
 " ln -s /etc/my_config/vim/vimrc /etc/vim/vimrc.local
 " ln -s /etc/my_config/vim/vim/colors/romanocry.vim  /usr/share/vim/vim74/colors
-" update-alternatives --config vim
+" update-alternatives --config editor
 " apt-get install git-core vim-nox exuberant-ctags python-sphinx
 " git clone http://github.com/gmarik/vundle.git /etc/vim/vundle
 " cd /etc/vim/vundle; git submodule init; git submodule update

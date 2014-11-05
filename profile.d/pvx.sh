@@ -5,11 +5,11 @@ export PVXAPP_LIB=$PVXAPP/lib/python2.7
 export PVXAPP_DOWNLOAD=$PVXAPP/download
 export ITOOLS_PKG=itools-0.50.5
 
-alias pvxapp='cd $PVXAPP'
-alias pv="pvxapp; source bin/activate"
-alias pvxcore='cd $PVXAPP_CORE'
-alias runpvxapp='pv; pvxcore; python pvxapp.py -H $PVXAPP'
-alias rungunicorn='pv; pvxcore; gunicorn -t 0 -c $GUNICORN/etc/gunicorn.py pvxapp:app'
+#alias pvxapp='cd $PVXAPP'
+#alias pv="pvxapp; source bin/activate"
+#alias pvxcore='cd $PVXAPP_CORE'
+#alias runpvxapp='pv; pvxcore; python pvxapp.py -H $PVXAPP'
+#alias rungunicorn='pv; pvxcore; gunicorn -t 0 -c $GUNICORN/etc/gunicorn.py pvxapp:app'
 alias pvxtree='pvxcore; vi -c :Ex'
 alias delpyc_pvxapp='find $PVXAPP_CORE -name "*.pyc" -exec rm {}  \;'
 alias delswp_pvxapp='find $PVXAPP_CORE -name "*.swp" -exec rm {}  \;'
